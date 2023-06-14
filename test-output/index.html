@@ -1,0 +1,1033 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 6 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-failed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>C:\Users\lmudavath\eclipse-workspace\Tutorialninja\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">28 methods, 6 failed,   22 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.MyAccountModulTest" class="method navigator-link" hash-for-method="editinformation">editinformation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.AffiliateTest" class="method navigator-link" hash-for-method="regisTer">regisTer</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.LogInPageTest" class="method navigator-link" hash-for-method="software">software</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.LogInPageTest" class="method navigator-link" hash-for-method="tablets">tablets</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.NewsletterTest" class="method navigator-link" hash-for-method="unsuscribe">unsuscribe</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.MyOrdersTest" class="method navigator-link" hash-for-method="viewYourReturnReque">viewYourReturnReque</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.AffiliateTest" class="method navigator-link" hash-for-method="Affiliatei">Affiliatei</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.LogInPageTest" class="method navigator-link" hash-for-method="LogInPager">LogInPager</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.MyAccountModulTest" class="method navigator-link" hash-for-method="MyAccountModuleTest">MyAccountModuleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.MyOrdersTest" class="method navigator-link" hash-for-method="MyOrder">MyOrder</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.MyAccountModulTest" class="method navigator-link" hash-for-method="addressbook">addressbook</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.DashBoardTest" class="method navigator-link" hash-for-method="camera">camera</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.LogInPageTest" class="method navigator-link" hash-for-method="cameras">cameras</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.LogInPageTest" class="method navigator-link" hash-for-method="components">components</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.LogInPageTest" class="method navigator-link" hash-for-method="desktopButto">desktopButto</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.MyOrdersTest" class="method navigator-link" hash-for-method="download">download</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.LogInPageTest" class="method navigator-link" hash-for-method="laptopsandNotebooks">laptopsandNotebooks</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.LogInPageTest" class="method navigator-link" hash-for-method="mp3Players">mp3Players</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.NewsletterTest" class="method navigator-link" hash-for-method="newsletter">newsletter</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.LogInPageTest" class="method navigator-link" hash-for-method="phonesandPdas">phonesandPdas</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.MyOrdersTest" class="method navigator-link" hash-for-method="recurringPayment">recurringPayment</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.NewsletterTest" class="method navigator-link" hash-for-method="subscribeUnsuscribe">subscribeUnsuscribe</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.NewsletterTest" class="method navigator-link" hash-for-method="subscribeclick">subscribeclick</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.MyOrdersTest" class="method navigator-link" hash-for-method="viewYourReturnRequest">viewYourReturnRequest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.MyOrdersTest" class="method navigator-link" hash-for-method="viewyourorderhis">viewyourorderhis</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.MyAccountModulTest" class="method navigator-link" hash-for-method="wishlist">wishlist</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.MyOrdersTest" class="method navigator-link" hash-for-method="yourRewardPoint">yourRewardPoint</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.MyOrdersTest" class="method navigator-link" hash-for-method="yourTransactions">yourTransactions</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testcases.AffiliateTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="regisTer">
+                  </a> <!-- regisTer -->
+                  <span class="method-name">regisTer</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [Register for an affiliate accoun] but found [Register for an affiliate account]
+	at testcases.AffiliateTest.regisTer(AffiliateTest.java:24)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testcases.NewsletterTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="unsuscribe">
+                  </a> <!-- unsuscribe -->
+                  <span class="method-name">unsuscribe</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [Subscribe / unsubscribe to newslette] but found [Subscribe / unsubscribe to newsletter]
+	at testcases.NewsletterTest.unsuscribe(NewsletterTest.java:31)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testcases.MyOrdersTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="viewYourReturnReque">
+                  </a> <!-- viewYourReturnReque -->
+                  <span class="method-name">viewYourReturnReque</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [viewYourReturnRequest] but found [View your return requests]
+	at testcases.MyOrdersTest.viewYourReturnReque(MyOrdersTest.java:72)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testcases.MyAccountModulTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="editinformation">
+                  </a> <!-- editinformation -->
+                  <span class="method-name">editinformation</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [Modify your address book entries] but found [Edit your account information]
+	at testcases.MyAccountModulTest.editinformation(MyAccountModulTest.java:25)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testcases.LogInPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="software">
+                  </a> <!-- software -->
+                  <span class="method-name">software</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at testcases.LogInPageTest.software(LogInPageTest.java:59)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 16 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tablets">
+                  </a> <!-- tablets -->
+                  <span class="method-name">tablets</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at testcases.LogInPageTest.tablets(LogInPageTest.java:52)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 16 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.AffiliateTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Affiliatei">
+                  </a> <!-- Affiliatei -->
+                  <span class="method-name">Affiliatei</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.NewsletterTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="newsletter">
+                  </a> <!-- newsletter -->
+                  <span class="method-name">newsletter</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="subscribeUnsuscribe">
+                  </a> <!-- subscribeUnsuscribe -->
+                  <span class="method-name">subscribeUnsuscribe</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="subscribeclick">
+                  </a> <!-- subscribeclick -->
+                  <span class="method-name">subscribeclick</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.DashBoardTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="camera">
+                  </a> <!-- camera -->
+                  <span class="method-name">camera</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.MyOrdersTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="MyOrder">
+                  </a> <!-- MyOrder -->
+                  <span class="method-name">MyOrder</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="download">
+                  </a> <!-- download -->
+                  <span class="method-name">download</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="recurringPayment">
+                  </a> <!-- recurringPayment -->
+                  <span class="method-name">recurringPayment</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="viewYourReturnRequest">
+                  </a> <!-- viewYourReturnRequest -->
+                  <span class="method-name">viewYourReturnRequest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="viewyourorderhis">
+                  </a> <!-- viewyourorderhis -->
+                  <span class="method-name">viewyourorderhis</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="yourRewardPoint">
+                  </a> <!-- yourRewardPoint -->
+                  <span class="method-name">yourRewardPoint</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="yourTransactions">
+                  </a> <!-- yourTransactions -->
+                  <span class="method-name">yourTransactions</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.MyAccountModulTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="MyAccountModuleTest">
+                  </a> <!-- MyAccountModuleTest -->
+                  <span class="method-name">MyAccountModuleTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addressbook">
+                  </a> <!-- addressbook -->
+                  <span class="method-name">addressbook</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="wishlist">
+                  </a> <!-- wishlist -->
+                  <span class="method-name">wishlist</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.LogInPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="LogInPager">
+                  </a> <!-- LogInPager -->
+                  <span class="method-name">LogInPager</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="cameras">
+                  </a> <!-- cameras -->
+                  <span class="method-name">cameras</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="components">
+                  </a> <!-- components -->
+                  <span class="method-name">components</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="desktopButto">
+                  </a> <!-- desktopButto -->
+                  <span class="method-name">desktopButto</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="laptopsandNotebooks">
+                  </a> <!-- laptopsandNotebooks -->
+                  <span class="method-name">laptopsandNotebooks</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="mp3Players">
+                  </a> <!-- mp3Players -->
+                  <span class="method-name">mp3Players</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="phonesandPdas">
+                  </a> <!-- phonesandPdas -->
+                  <span class="method-name">phonesandPdas</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\lmudavath\eclipse-workspace\Tutorialninja\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;listeners.Listeners&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;classes&quot; name=&quot;LimbyaNayak&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testcases.DashBoardTest&quot;/&gt;
+      &lt;class name=&quot;testcases.MyAccountModulTest&quot;/&gt;
+      &lt;class name=&quot;testcases.AffiliateTest&quot;/&gt;
+      &lt;class name=&quot;testcases.NewsletterTest&quot;/&gt;
+      &lt;class name=&quot;testcases.LogInPageTest&quot;/&gt;
+      &lt;class name=&quot;testcases.MyOrdersTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- LimbyaNayak --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">LimbyaNayak (6 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(28);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'subscribeclick')
+data.setCell(0, 2, 'testcases.NewsletterTest')
+data.setCell(0, 3, 7190);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'LogInPager')
+data.setCell(1, 2, 'testcases.LogInPageTest')
+data.setCell(1, 3, 3312);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'cameras')
+data.setCell(2, 2, 'testcases.LogInPageTest')
+data.setCell(2, 3, 3276);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'mp3Players')
+data.setCell(3, 2, 'testcases.LogInPageTest')
+data.setCell(3, 3, 3194);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'components')
+data.setCell(4, 2, 'testcases.LogInPageTest')
+data.setCell(4, 3, 3128);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'phonesandPdas')
+data.setCell(5, 2, 'testcases.LogInPageTest')
+data.setCell(5, 3, 3115);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'desktopButto')
+data.setCell(6, 2, 'testcases.LogInPageTest')
+data.setCell(6, 3, 3079);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'laptopsandNotebooks')
+data.setCell(7, 2, 'testcases.LogInPageTest')
+data.setCell(7, 3, 3076);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'camera')
+data.setCell(8, 2, 'testcases.DashBoardTest')
+data.setCell(8, 3, 1641);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'addressbook')
+data.setCell(9, 2, 'testcases.MyAccountModulTest')
+data.setCell(9, 3, 907);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'wishlist')
+data.setCell(10, 2, 'testcases.MyAccountModulTest')
+data.setCell(10, 3, 698);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'subscribeUnsuscribe')
+data.setCell(11, 2, 'testcases.NewsletterTest')
+data.setCell(11, 3, 597);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'regisTer')
+data.setCell(12, 2, 'testcases.AffiliateTest')
+data.setCell(12, 3, 541);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'newsletter')
+data.setCell(13, 2, 'testcases.NewsletterTest')
+data.setCell(13, 3, 475);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'MyAccountModuleTest')
+data.setCell(14, 2, 'testcases.MyAccountModulTest')
+data.setCell(14, 3, 400);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'unsuscribe')
+data.setCell(15, 2, 'testcases.NewsletterTest')
+data.setCell(15, 3, 328);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'Affiliatei')
+data.setCell(16, 2, 'testcases.AffiliateTest')
+data.setCell(16, 3, 271);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'download')
+data.setCell(17, 2, 'testcases.MyOrdersTest')
+data.setCell(17, 3, 179);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'recurringPayment')
+data.setCell(18, 2, 'testcases.MyOrdersTest')
+data.setCell(18, 3, 139);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'yourRewardPoint')
+data.setCell(19, 2, 'testcases.MyOrdersTest')
+data.setCell(19, 3, 115);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'viewYourReturnRequest')
+data.setCell(20, 2, 'testcases.MyOrdersTest')
+data.setCell(20, 3, 110);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'yourTransactions')
+data.setCell(21, 2, 'testcases.MyOrdersTest')
+data.setCell(21, 3, 107);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'viewYourReturnReque')
+data.setCell(22, 2, 'testcases.MyOrdersTest')
+data.setCell(22, 3, 105);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'viewyourorderhis')
+data.setCell(23, 2, 'testcases.MyOrdersTest')
+data.setCell(23, 3, 99);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'editinformation')
+data.setCell(24, 2, 'testcases.MyAccountModulTest')
+data.setCell(24, 3, 85);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'MyOrder')
+data.setCell(25, 2, 'testcases.MyOrdersTest')
+data.setCell(25, 3, 56);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'software')
+data.setCell(26, 2, 'testcases.LogInPageTest')
+data.setCell(26, 3, 31);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'tablets')
+data.setCell(27, 2, 'testcases.LogInPageTest')
+data.setCell(27, 3, 28);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 36 seconds</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.DashBoardTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">openweb</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.MyAccountModulTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">openweb</span>
+                <span class="method-start">4 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.LogInPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">openweb</span>
+                <span class="method-start">16 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.NewsletterTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">openweb</span>
+                <span class="method-start">17 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.AffiliateTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">openweb</span>
+                <span class="method-start">17 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">Affiliatei</span>
+                <span class="method-start">35118 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">regisTer</span>
+                <span class="method-start">35398 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.MyAccountModulTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">MyAccountModuleTest</span>
+                <span class="method-start">35950 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.AffiliateTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class after">
+                <span class="method-name">close</span>
+                <span class="method-start">35999 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.LogInPageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">LogInPager</span>
+                <span class="method-start">36107 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.DashBoardTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">camera</span>
+                <span class="method-start">36108 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.MyAccountModulTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">addressbook</span>
+                <span class="method-start">36365 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">editinformation</span>
+                <span class="method-start">37275 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">wishlist</span>
+                <span class="method-start">37365 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.NewsletterTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">newsletter</span>
+                <span class="method-start">37719 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.DashBoardTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class after">
+                <span class="method-name">close</span>
+                <span class="method-start">37751 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.MyAccountModulTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class after">
+                <span class="method-name">close</span>
+                <span class="method-start">38065 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.NewsletterTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">subscribeUnsuscribe</span>
+                <span class="method-start">38197 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">subscribeclick</span>
+                <span class="method-start">38797 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.LogInPageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">cameras</span>
+                <span class="method-start">39421 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.MyOrdersTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">openweb</span>
+                <span class="method-start">41300 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.LogInPageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">components</span>
+                <span class="method-start">42701 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">desktopButto</span>
+                <span class="method-start">45832 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.NewsletterTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">unsuscribe</span>
+                <span class="method-start">45992 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">close</span>
+                <span class="method-start">46323 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.LogInPageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">laptopsandNotebooks</span>
+                <span class="method-start">48914 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">mp3Players</span>
+                <span class="method-start">51992 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.MyOrdersTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">MyOrder</span>
+                <span class="method-start">52235 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">download</span>
+                <span class="method-start">52293 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">recurringPayment</span>
+                <span class="method-start">52474 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">viewYourReturnReque</span>
+                <span class="method-start">52615 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">viewYourReturnRequest</span>
+                <span class="method-start">52722 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">viewyourorderhis</span>
+                <span class="method-start">52833 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">yourRewardPoint</span>
+                <span class="method-start">52934 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">yourTransactions</span>
+                <span class="method-start">53050 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">close</span>
+                <span class="method-start">53158 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.LogInPageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">phonesandPdas</span>
+                <span class="method-start">55187 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">software</span>
+                <span class="method-start">58304 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">tablets</span>
+                <span class="method-start">58337 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">close</span>
+                <span class="method-start">58366 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

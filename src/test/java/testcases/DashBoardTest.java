@@ -1,0 +1,17 @@
+package testcases;
+
+import org.testng.annotations.Test;
+
+import objectrepository.MyAccountPage;
+
+public class DashBoardTest extends BaseClassTest {
+
+	MyAccountPage myAccountPage;
+
+	@Test
+	public void camera() {
+		myAccountPage = new MyAccountPage(driver);
+		myAccountPage.cameras().click();
+	}
+
+}
