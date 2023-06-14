@@ -12,6 +12,8 @@ public class DashBoardTest extends BaseClassTest {
 	public void camera() {
 		myAccountPage = new MyAccountPage(driver);
 		myAccountPage.cameras().click();
+//driver
+
 	}
 
 }
