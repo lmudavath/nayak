@@ -48,7 +48,6 @@ public class LogInPageTest extends BaseClassTest {
 		Listeners.test.info("edsjfhjshfskhfkshkahka");
 		Listeners.test.fail("test case pass");
 		Listeners.test.pass("test case pass");
-
 		Assert.assertTrue(MyAccountPage.tablets().isDisplayed());
 		Thread.sleep(3000);
 	}
