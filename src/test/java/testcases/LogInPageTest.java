@@ -72,6 +72,7 @@ public class LogInPageTest extends BaseClassTest {
 		MyAccountPage = new MyAccountPage(driver);
 		Assert.assertTrue(MyAccountPage.cameras().isDisplayed());
 		Thread.sleep(3000);
+		//git hub testing
 	}
 
 	@Test
@@ -79,6 +80,7 @@ public class LogInPageTest extends BaseClassTest {
 		MyAccountPage = new MyAccountPage(driver);
 		Assert.assertTrue(MyAccountPage.mp3Players().isDisplayed());
 		Thread.sleep(3000);
+		//git hub testing
 	}
 
 }
