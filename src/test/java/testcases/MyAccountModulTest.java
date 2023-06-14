@@ -3,6 +3,7 @@ package testcases;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import listeners.Listeners;
 import objectrepository.MyAccountModule;
 
 public class MyAccountModulTest extends BaseClassTest {
@@ -21,6 +22,7 @@ public class MyAccountModulTest extends BaseClassTest {
 	public void editinformation() {
 		myaccount = new MyAccountModule(driver);
 		Assert.assertTrue(myaccount.editinformation().isDisplayed());
+		Listeners.test.pass("redirectingtoeditinformationtab");
 		String str = myaccount.editinformation().getText();
 		Assert.assertEquals(str, "Modify your address book entries");
 	}
