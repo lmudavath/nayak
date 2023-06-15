@@ -50,12 +50,11 @@ public class MyOrders {
 	public WebElement viewyourorderhist() {
 
 		return viewyourorderhist;
-
+		
 	}
 
 	public WebElement downloads() {
 		
-
 		return downloads;
 	}
 
@@ -73,7 +72,6 @@ public class MyOrders {
 	public WebElement yourTransactions() {
 
 		return yourTransactions;
-
 	}
 
 	public WebElement recurringPayments() {
