@@ -4,29 +4,8 @@
   <listeners>
     <listener class-name="listeners.Listeners"/>
   </listeners>
-  <test thread-count="5" parallel="classes" name="LimbyaNayak(failed)">
+  <test thread-count="5" parallel="classes" name="Test(failed)">
     <classes>
-      <class name="testcases.AffiliateTest">
-        <methods>
-          <include name="openweb"/>
-          <include name="close"/>
-          <include name="regisTer"/>
-        </methods>
-      </class> <!-- testcases.AffiliateTest -->
-      <class name="testcases.NewsletterTest">
-        <methods>
-          <include name="unsuscribe"/>
-          <include name="openweb"/>
-          <include name="close"/>
-        </methods>
-      </class> <!-- testcases.NewsletterTest -->
-      <class name="testcases.MyOrdersTest">
-        <methods>
-          <include name="openweb"/>
-          <include name="close"/>
-          <include name="viewYourReturnReque"/>
-        </methods>
-      </class> <!-- testcases.MyOrdersTest -->
       <class name="testcases.MyAccountModulTest">
         <methods>
           <include name="openweb"/>
@@ -34,6 +13,20 @@
           <include name="editinformation"/>
         </methods>
       </class> <!-- testcases.MyAccountModulTest -->
+      <class name="testcases.MyOrdersTest">
+        <methods>
+          <include name="openweb"/>
+          <include name="close"/>
+          <include name="viewYourReturnReque"/>
+        </methods>
+      </class> <!-- testcases.MyOrdersTest -->
+      <class name="testcases.AffiliateTest">
+        <methods>
+          <include name="openweb"/>
+          <include name="close"/>
+          <include name="regisTer"/>
+        </methods>
+      </class> <!-- testcases.AffiliateTest -->
       <class name="testcases.LogInPageTest">
         <methods>
           <include name="openweb"/>
@@ -42,6 +35,13 @@
           <include name="software"/>
         </methods>
       </class> <!-- testcases.LogInPageTest -->
+      <class name="testcases.NewsletterTest">
+        <methods>
+          <include name="unsuscribe"/>
+          <include name="openweb"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- testcases.NewsletterTest -->
     </classes>
-  </test> <!-- LimbyaNayak(failed) -->
+  </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

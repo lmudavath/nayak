@@ -1,59 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="7" passed="3" failed="4" skipped="0">
+<testng-results ignored="0" total="38" passed="32" failed="6" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-06-16T16:23:20 IST" name="Default suite" finished-at="2023-06-16T16:24:04 IST" duration-ms="43774">
+  <suite started-at="2023-06-16T22:09:18 IST" name="Suite" finished-at="2023-06-16T22:11:15 IST" duration-ms="116760">
     <groups>
     </groups>
-    <test started-at="2023-06-16T16:23:20 IST" name="Default test" finished-at="2023-06-16T16:24:04 IST" duration-ms="43774">
-      <class name="testcases.IphoneBuyTest">
-        <test-method is-config="true" signature="openweb()[pri:0, instance:testcases.IphoneBuyTest@26d9b808]" started-at="2023-06-16T16:23:20 IST" name="openweb" finished-at="2023-06-16T16:23:32 IST" duration-ms="11422" status="PASS">
+    <test started-at="2023-06-16T22:09:18 IST" name="Test" finished-at="2023-06-16T22:11:15 IST" duration-ms="116760">
+      <class name="testcases.CameraTabTest">
+        <test-method is-config="true" signature="openweb()[pri:0, instance:testcases.CameraTabTest@10cf09e8]" started-at="2023-06-16T22:10:05 IST" name="openweb" finished-at="2023-06-16T22:10:37 IST" duration-ms="31574" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openweb -->
-        <test-method signature="AddToCart()[pri:0, instance:testcases.IphoneBuyTest@26d9b808]" started-at="2023-06-16T16:23:32 IST" name="AddToCart" finished-at="2023-06-16T16:23:42 IST" duration-ms="10084" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
+        <test-method signature="cameraTab()[pri:0, instance:testcases.CameraTabTest@10cf09e8]" started-at="2023-06-16T22:10:37 IST" name="cameraTab" finished-at="2023-06-16T22:10:38 IST" duration-ms="907" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cameraTab -->
+        <test-method is-config="true" signature="close()[pri:0, instance:testcases.CameraTabTest@10cf09e8]" started-at="2023-06-16T22:10:38 IST" name="close" finished-at="2023-06-16T22:10:40 IST" duration-ms="1849" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- testcases.CameraTabTest -->
+      <class name="testcases.AffiliateTest">
+        <test-method is-config="true" signature="openweb()[pri:0, instance:testcases.AffiliateTest@ee86bcb]" started-at="2023-06-16T22:09:18 IST" name="openweb" finished-at="2023-06-16T22:09:58 IST" duration-ms="39416" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openweb -->
+        <test-method signature="Affiliatei()[pri:0, instance:testcases.AffiliateTest@ee86bcb]" started-at="2023-06-16T22:09:58 IST" name="Affiliatei" finished-at="2023-06-16T22:09:58 IST" duration-ms="521" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Affiliatei -->
+        <test-method signature="regisTer()[pri:0, instance:testcases.AffiliateTest@ee86bcb]" started-at="2023-06-16T22:09:58 IST" name="regisTer" finished-at="2023-06-16T22:09:59 IST" duration-ms="974" status="FAIL">
+          <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"button-cart"}
-  (Session info: chrome=114.0.5735.110)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.9.1', revision: 'eb2032df7f'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [5df5b556b11b96bdf859cd055e891920, findElement {using=xpath, value=button-cart}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.110, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\LMUDAV~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59327}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59327/devtoo..., se:cdpVersion: 114.0.5735.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 5df5b556b11b96bdf859cd055e891920]]>
+              <![CDATA[expected [Register for an affiliate accoun] but found [Register for an affiliate account]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"button-cart"}
-  (Session info: chrome=114.0.5735.110)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.9.1', revision: 'eb2032df7f'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [5df5b556b11b96bdf859cd055e891920, findElement {using=xpath, value=button-cart}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.110, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\LMUDAV~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59327}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59327/devtoo..., se:cdpVersion: 114.0.5735.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 5df5b556b11b96bdf859cd055e891920
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-at jdk.proxy2/jdk.proxy2.$Proxy19.click(Unknown Source)
-at testcases.IphoneBuyTest.AddToCart(IphoneBuyTest.java:65)
+              <![CDATA[java.lang.AssertionError: expected [Register for an affiliate accoun] but found [Register for an affiliate account]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at org.testng.Assert.assertEquals(Assert.java:665)
+at testcases.AffiliateTest.regisTer(AffiliateTest.java:24)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -66,245 +55,371 @@ at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInv
 at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
 at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
 at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:829)
-at org.testng.TestRunner.run(TestRunner.java:602)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- AddToCart -->
-        <test-method signature="ClickOnSearch()[pri:0, instance:testcases.IphoneBuyTest@26d9b808]" started-at="2023-06-16T16:23:42 IST" name="ClickOnSearch" finished-at="2023-06-16T16:23:42 IST" duration-ms="304" status="PASS">
+        </test-method> <!-- regisTer -->
+        <test-method is-config="true" signature="close()[pri:0, instance:testcases.AffiliateTest@ee86bcb]" started-at="2023-06-16T22:09:59 IST" name="close" finished-at="2023-06-16T22:10:06 IST" duration-ms="6855" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ClickOnSearch -->
-        <test-method signature="Search()[pri:0, instance:testcases.IphoneBuyTest@26d9b808]" started-at="2023-06-16T16:23:42 IST" name="Search" finished-at="2023-06-16T16:23:42 IST" duration-ms="168" status="PASS">
+        </test-method> <!-- close -->
+      </class> <!-- testcases.AffiliateTest -->
+      <class name="testcases.DashBoardTest">
+        <test-method is-config="true" signature="openweb()[pri:0, instance:testcases.DashBoardTest@3c9c0d96]" started-at="2023-06-16T22:09:18 IST" name="openweb" finished-at="2023-06-16T22:09:59 IST" duration-ms="40638" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openweb -->
+        <test-method signature="camera()[pri:0, instance:testcases.DashBoardTest@3c9c0d96]" started-at="2023-06-16T22:09:59 IST" name="camera" finished-at="2023-06-16T22:10:01 IST" duration-ms="2216" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- camera -->
+        <test-method is-config="true" signature="close()[pri:0, instance:testcases.DashBoardTest@3c9c0d96]" started-at="2023-06-16T22:10:01 IST" name="close" finished-at="2023-06-16T22:10:07 IST" duration-ms="5532" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- testcases.DashBoardTest -->
+      <class name="testcases.MyAccountModulTest">
+        <test-method is-config="true" signature="openweb()[pri:0, instance:testcases.MyAccountModulTest@1921ad94]" started-at="2023-06-16T22:09:18 IST" name="openweb" finished-at="2023-06-16T22:10:02 IST" duration-ms="43675" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openweb -->
+        <test-method signature="MyAccountModuleTest()[pri:0, instance:testcases.MyAccountModulTest@1921ad94]" started-at="2023-06-16T22:10:02 IST" name="MyAccountModuleTest" finished-at="2023-06-16T22:10:03 IST" duration-ms="613" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MyAccountModuleTest -->
+        <test-method signature="addressbook()[pri:0, instance:testcases.MyAccountModulTest@1921ad94]" started-at="2023-06-16T22:10:03 IST" name="addressbook" finished-at="2023-06-16T22:10:03 IST" duration-ms="359" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addressbook -->
+        <test-method signature="editinformation()[pri:0, instance:testcases.MyAccountModulTest@1921ad94]" started-at="2023-06-16T22:10:03 IST" name="editinformation" finished-at="2023-06-16T22:10:03 IST" duration-ms="197" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Modify your address book entries] but found [Edit your account information]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Modify your address book entries] but found [Edit your account information]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at org.testng.Assert.assertEquals(Assert.java:665)
+at testcases.MyAccountModulTest.editinformation(MyAccountModulTest.java:27)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editinformation -->
+        <test-method signature="wishlist()[pri:0, instance:testcases.MyAccountModulTest@1921ad94]" started-at="2023-06-16T22:10:03 IST" name="wishlist" finished-at="2023-06-16T22:10:04 IST" duration-ms="349" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wishlist -->
+        <test-method is-config="true" signature="close()[pri:0, instance:testcases.MyAccountModulTest@1921ad94]" started-at="2023-06-16T22:10:04 IST" name="close" finished-at="2023-06-16T22:10:07 IST" duration-ms="3371" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- testcases.MyAccountModulTest -->
+      <class name="testcases.NewsletterTest">
+        <test-method is-config="true" signature="openweb()[pri:0, instance:testcases.NewsletterTest@177bea38]" started-at="2023-06-16T22:10:06 IST" name="openweb" finished-at="2023-06-16T22:10:37 IST" duration-ms="30743" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openweb -->
+        <test-method signature="newsletter()[pri:0, instance:testcases.NewsletterTest@177bea38]" started-at="2023-06-16T22:10:37 IST" name="newsletter" finished-at="2023-06-16T22:10:37 IST" duration-ms="314" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newsletter -->
+        <test-method signature="subscribeUnsuscribe()[pri:0, instance:testcases.NewsletterTest@177bea38]" started-at="2023-06-16T22:10:37 IST" name="subscribeUnsuscribe" finished-at="2023-06-16T22:10:37 IST" duration-ms="246" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subscribeUnsuscribe -->
+        <test-method signature="subscribeclick()[pri:0, instance:testcases.NewsletterTest@177bea38]" started-at="2023-06-16T22:10:37 IST" name="subscribeclick" finished-at="2023-06-16T22:10:44 IST" duration-ms="7006" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subscribeclick -->
+        <test-method signature="unsuscribe()[pri:0, instance:testcases.NewsletterTest@177bea38]" started-at="2023-06-16T22:10:44 IST" name="unsuscribe" finished-at="2023-06-16T22:10:45 IST" duration-ms="183" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Subscribe / unsubscribe to newslette] but found [Subscribe / unsubscribe to newsletter]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Subscribe / unsubscribe to newslette] but found [Subscribe / unsubscribe to newsletter]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at org.testng.Assert.assertEquals(Assert.java:665)
+at testcases.NewsletterTest.unsuscribe(NewsletterTest.java:31)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- unsuscribe -->
+        <test-method is-config="true" signature="close()[pri:0, instance:testcases.NewsletterTest@177bea38]" started-at="2023-06-16T22:10:45 IST" name="close" finished-at="2023-06-16T22:10:47 IST" duration-ms="2517" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- testcases.NewsletterTest -->
+      <class name="testcases.IphoneBuyTest">
+        <test-method is-config="true" signature="openweb()[pri:0, instance:testcases.IphoneBuyTest@7f132176]" started-at="2023-06-16T22:10:07 IST" name="openweb" finished-at="2023-06-16T22:10:37 IST" duration-ms="30084" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openweb -->
+        <test-method signature="Search()[pri:1, instance:testcases.IphoneBuyTest@7f132176]" started-at="2023-06-16T22:10:37 IST" name="Search" finished-at="2023-06-16T22:10:41 IST" duration-ms="3730" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Search -->
-        <test-method signature="clickNextButton()[pri:0, instance:testcases.IphoneBuyTest@26d9b808]" started-at="2023-06-16T16:23:42 IST" name="clickNextButton" finished-at="2023-06-16T16:23:52 IST" duration-ms="10059" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//body/div[2]/div[1]/button[2]"}
-  (Session info: chrome=114.0.5735.110)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.9.1', revision: 'eb2032df7f'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [5df5b556b11b96bdf859cd055e891920, findElement {using=xpath, value=//body/div[2]/div[1]/button[2]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.110, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\LMUDAV~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59327}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59327/devtoo..., se:cdpVersion: 114.0.5735.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 5df5b556b11b96bdf859cd055e891920]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//body/div[2]/div[1]/button[2]"}
-  (Session info: chrome=114.0.5735.110)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.9.1', revision: 'eb2032df7f'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [5df5b556b11b96bdf859cd055e891920, findElement {using=xpath, value=//body/div[2]/div[1]/button[2]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.110, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\LMUDAV~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59327}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59327/devtoo..., se:cdpVersion: 114.0.5735.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 5df5b556b11b96bdf859cd055e891920
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-at jdk.proxy2/jdk.proxy2.$Proxy19.click(Unknown Source)
-at testcases.IphoneBuyTest.clickNextButton(IphoneBuyTest.java:45)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:829)
-at org.testng.TestRunner.run(TestRunner.java:602)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+        <test-method signature="ClickOnSearch()[pri:2, instance:testcases.IphoneBuyTest@7f132176]" started-at="2023-06-16T22:10:41 IST" name="ClickOnSearch" finished-at="2023-06-16T22:10:44 IST" duration-ms="3673" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- clickNextButton -->
-        <test-method signature="closePriviewbutton()[pri:0, instance:testcases.IphoneBuyTest@26d9b808]" started-at="2023-06-16T16:23:52 IST" name="closePriviewbutton" finished-at="2023-06-16T16:24:02 IST" duration-ms="10062" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//button[contains(text(),'×')]"}
-  (Session info: chrome=114.0.5735.110)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.9.1', revision: 'eb2032df7f'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [5df5b556b11b96bdf859cd055e891920, findElement {using=xpath, value=//button[contains(text(),'×')]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.110, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\LMUDAV~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59327}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59327/devtoo..., se:cdpVersion: 114.0.5735.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 5df5b556b11b96bdf859cd055e891920]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[contains(text(),'×')]"}
-  (Session info: chrome=114.0.5735.110)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.9.1', revision: 'eb2032df7f'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [5df5b556b11b96bdf859cd055e891920, findElement {using=xpath, value=//button[contains(text(),'×')]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.110, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\LMUDAV~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59327}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59327/devtoo..., se:cdpVersion: 114.0.5735.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 5df5b556b11b96bdf859cd055e891920
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-at jdk.proxy2/jdk.proxy2.$Proxy19.click(Unknown Source)
-at testcases.IphoneBuyTest.closePriviewbutton(IphoneBuyTest.java:57)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:829)
-at org.testng.TestRunner.run(TestRunner.java:602)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closePriviewbutton -->
-        <test-method signature="iPhonetab()[pri:0, instance:testcases.IphoneBuyTest@26d9b808]" started-at="2023-06-16T16:24:02 IST" name="iPhonetab" finished-at="2023-06-16T16:24:03 IST" duration-ms="811" status="PASS">
+        </test-method> <!-- ClickOnSearch -->
+        <test-method signature="iPhonetab()[pri:3, instance:testcases.IphoneBuyTest@7f132176]" started-at="2023-06-16T22:10:44 IST" name="iPhonetab" finished-at="2023-06-16T22:10:50 IST" duration-ms="5604" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- iPhonetab -->
-        <test-method signature="previewOfIphone()[pri:0, instance:testcases.IphoneBuyTest@26d9b808]" started-at="2023-06-16T16:24:03 IST" name="previewOfIphone" finished-at="2023-06-16T16:24:03 IST" duration-ms="1" status="FAIL">
-          <exception class="java.lang.Error">
-            <message>
-              <![CDATA[Unresolved compilation problem: 
-Syntax error, insert ";" to complete Statement
-]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.Error: Unresolved compilation problem: 
-Syntax error, insert ";" to complete Statement
-
-at testcases.IphoneBuyTest.previewOfIphone(IphoneBuyTest.java:37)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:829)
-at org.testng.TestRunner.run(TestRunner.java:602)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.Error -->
+        <test-method signature="previewOfIphone()[pri:4, instance:testcases.IphoneBuyTest@7f132176]" started-at="2023-06-16T22:10:50 IST" name="previewOfIphone" finished-at="2023-06-16T22:10:53 IST" duration-ms="3370" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- previewOfIphone -->
-        <test-method is-config="true" signature="close()[pri:0, instance:testcases.IphoneBuyTest@26d9b808]" started-at="2023-06-16T16:24:03 IST" name="close" finished-at="2023-06-16T16:24:04 IST" duration-ms="765" status="PASS">
+        <test-method signature="clickNextButton()[pri:5, instance:testcases.IphoneBuyTest@7f132176]" started-at="2023-06-16T22:10:53 IST" name="clickNextButton" finished-at="2023-06-16T22:11:04 IST" duration-ms="10722" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickNextButton -->
+        <test-method signature="closePriviewbutton()[pri:6, instance:testcases.IphoneBuyTest@7f132176]" started-at="2023-06-16T22:11:04 IST" name="closePriviewbutton" finished-at="2023-06-16T22:11:07 IST" duration-ms="3111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closePriviewbutton -->
+        <test-method signature="AddToCart()[pri:7, instance:testcases.IphoneBuyTest@7f132176]" started-at="2023-06-16T22:11:07 IST" name="AddToCart" finished-at="2023-06-16T22:11:09 IST" duration-ms="2091" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddToCart -->
+        <test-method signature="cart()[pri:8, instance:testcases.IphoneBuyTest@7f132176]" started-at="2023-06-16T22:11:09 IST" name="cart" finished-at="2023-06-16T22:11:11 IST" duration-ms="2082" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cart -->
+        <test-method signature="buyProduct()[pri:9, instance:testcases.IphoneBuyTest@7f132176]" started-at="2023-06-16T22:11:11 IST" name="buyProduct" finished-at="2023-06-16T22:11:14 IST" duration-ms="2695" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- buyProduct -->
+        <test-method is-config="true" signature="close()[pri:0, instance:testcases.IphoneBuyTest@7f132176]" started-at="2023-06-16T22:11:14 IST" name="close" finished-at="2023-06-16T22:11:15 IST" duration-ms="1097" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
       </class> <!-- testcases.IphoneBuyTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="testcases.LogInPageTest">
+        <test-method is-config="true" signature="openweb()[pri:0, instance:testcases.LogInPageTest@6bca7e0d]" started-at="2023-06-16T22:09:18 IST" name="openweb" finished-at="2023-06-16T22:10:01 IST" duration-ms="42696" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openweb -->
+        <test-method signature="LogInPager()[pri:0, instance:testcases.LogInPageTest@6bca7e0d]" started-at="2023-06-16T22:10:01 IST" name="LogInPager" finished-at="2023-06-16T22:10:04 IST" duration-ms="3157" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogInPager -->
+        <test-method signature="cameras()[pri:0, instance:testcases.LogInPageTest@6bca7e0d]" started-at="2023-06-16T22:10:04 IST" name="cameras" finished-at="2023-06-16T22:10:07 IST" duration-ms="3260" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cameras -->
+        <test-method signature="components()[pri:0, instance:testcases.LogInPageTest@6bca7e0d]" started-at="2023-06-16T22:10:07 IST" name="components" finished-at="2023-06-16T22:10:11 IST" duration-ms="3392" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- components -->
+        <test-method signature="desktopButto()[pri:0, instance:testcases.LogInPageTest@6bca7e0d]" started-at="2023-06-16T22:10:11 IST" name="desktopButto" finished-at="2023-06-16T22:10:15 IST" duration-ms="3942" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- desktopButto -->
+        <test-method signature="laptopsandNotebooks()[pri:0, instance:testcases.LogInPageTest@6bca7e0d]" started-at="2023-06-16T22:10:15 IST" name="laptopsandNotebooks" finished-at="2023-06-16T22:10:18 IST" duration-ms="3224" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- laptopsandNotebooks -->
+        <test-method signature="mp3Players()[pri:0, instance:testcases.LogInPageTest@6bca7e0d]" started-at="2023-06-16T22:10:18 IST" name="mp3Players" finished-at="2023-06-16T22:10:22 IST" duration-ms="4231" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mp3Players -->
+        <test-method signature="phonesandPdas()[pri:0, instance:testcases.LogInPageTest@6bca7e0d]" started-at="2023-06-16T22:10:22 IST" name="phonesandPdas" finished-at="2023-06-16T22:10:26 IST" duration-ms="4140" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- phonesandPdas -->
+        <test-method signature="software()[pri:0, instance:testcases.LogInPageTest@6bca7e0d]" started-at="2023-06-16T22:10:26 IST" name="software" finished-at="2023-06-16T22:10:27 IST" duration-ms="131" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertTrue(Assert.java:56)
+at org.testng.Assert.assertTrue(Assert.java:66)
+at testcases.LogInPageTest.software(LogInPageTest.java:58)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- software -->
+        <test-method signature="tablets()[pri:0, instance:testcases.LogInPageTest@6bca7e0d]" started-at="2023-06-16T22:10:27 IST" name="tablets" finished-at="2023-06-16T22:10:27 IST" duration-ms="141" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertTrue(Assert.java:56)
+at org.testng.Assert.assertTrue(Assert.java:66)
+at testcases.LogInPageTest.tablets(LogInPageTest.java:51)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tablets -->
+        <test-method is-config="true" signature="close()[pri:0, instance:testcases.LogInPageTest@6bca7e0d]" started-at="2023-06-16T22:10:27 IST" name="close" finished-at="2023-06-16T22:10:40 IST" duration-ms="13792" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- testcases.LogInPageTest -->
+      <class name="testcases.MyOrdersTest">
+        <test-method is-config="true" signature="openweb()[pri:0, instance:testcases.MyOrdersTest@2631f68c]" started-at="2023-06-16T22:09:18 IST" name="openweb" finished-at="2023-06-16T22:09:57 IST" duration-ms="38347" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openweb -->
+        <test-method signature="MyOrder()[pri:0, instance:testcases.MyOrdersTest@2631f68c]" started-at="2023-06-16T22:09:57 IST" name="MyOrder" finished-at="2023-06-16T22:09:57 IST" duration-ms="555" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MyOrder -->
+        <test-method signature="download()[pri:0, instance:testcases.MyOrdersTest@2631f68c]" started-at="2023-06-16T22:09:57 IST" name="download" finished-at="2023-06-16T22:09:58 IST" duration-ms="573" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- download -->
+        <test-method signature="recurringPayment()[pri:0, instance:testcases.MyOrdersTest@2631f68c]" started-at="2023-06-16T22:09:58 IST" name="recurringPayment" finished-at="2023-06-16T22:09:58 IST" duration-ms="292" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- recurringPayment -->
+        <test-method signature="viewYourReturnReque()[pri:0, instance:testcases.MyOrdersTest@2631f68c]" started-at="2023-06-16T22:09:58 IST" name="viewYourReturnReque" finished-at="2023-06-16T22:09:59 IST" duration-ms="596" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [viewYourReturnRequest] but found [View your return requests]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [viewYourReturnRequest] but found [View your return requests]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at org.testng.Assert.assertEquals(Assert.java:665)
+at testcases.MyOrdersTest.viewYourReturnReque(MyOrdersTest.java:72)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- viewYourReturnReque -->
+        <test-method signature="viewYourReturnRequest()[pri:0, instance:testcases.MyOrdersTest@2631f68c]" started-at="2023-06-16T22:09:59 IST" name="viewYourReturnRequest" finished-at="2023-06-16T22:09:59 IST" duration-ms="301" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- viewYourReturnRequest -->
+        <test-method signature="viewyourorderhis()[pri:0, instance:testcases.MyOrdersTest@2631f68c]" started-at="2023-06-16T22:09:59 IST" name="viewyourorderhis" finished-at="2023-06-16T22:10:00 IST" duration-ms="603" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- viewyourorderhis -->
+        <test-method signature="yourRewardPoint()[pri:0, instance:testcases.MyOrdersTest@2631f68c]" started-at="2023-06-16T22:10:00 IST" name="yourRewardPoint" finished-at="2023-06-16T22:10:00 IST" duration-ms="344" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- yourRewardPoint -->
+        <test-method signature="yourTransactions()[pri:0, instance:testcases.MyOrdersTest@2631f68c]" started-at="2023-06-16T22:10:00 IST" name="yourTransactions" finished-at="2023-06-16T22:10:01 IST" duration-ms="454" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- yourTransactions -->
+        <test-method is-config="true" signature="close()[pri:0, instance:testcases.MyOrdersTest@2631f68c]" started-at="2023-06-16T22:10:01 IST" name="close" finished-at="2023-06-16T22:10:05 IST" duration-ms="4708" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- testcases.MyOrdersTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

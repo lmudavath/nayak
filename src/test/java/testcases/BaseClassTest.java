@@ -11,9 +11,10 @@ import resources.Basee;
 
 public class BaseClassTest extends Basee {
 	public WebDriver driver;
+
 	@BeforeClass
 	public void openweb() throws IOException {
-		driver=initializeBrowser();
+		driver = initializeBrowser();
 		driver.get("https://tutorialsninja.com/demo/");
 		LogInPage LogInPage = new LogInPage(driver);
 		LogInPage.MyAccountButton().click();

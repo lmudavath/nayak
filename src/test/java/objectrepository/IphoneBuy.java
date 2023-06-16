@@ -6,7 +6,6 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class IphoneBuy {
-	
 
 	WebDriver driver;
 
@@ -14,7 +13,7 @@ public class IphoneBuy {
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
 	}
-	
+
 	@FindBy(name = "search")
 	private WebElement Search;
 
@@ -33,8 +32,14 @@ public class IphoneBuy {
 	@FindBy(xpath = "//button[contains(text(),'×')]")
 	private WebElement closePriviewbutton;
 
-	@FindBy(xpath = "button-cart")
+	@FindBy(tagName = "button")
 	private WebElement AddToCart;
+
+	@FindBy(id = "cart-total")
+	private WebElement cart;
+
+	@FindBy(xpath = "//body[1]/header[1]/div[1]/div[1]/div[3]/div[1]/ul[1]/li[2]/div[1]/p[1]/a[2]/strong[1]")
+	private WebElement buyProduct;
 
 	public WebElement search() {
 
@@ -58,22 +63,33 @@ public class IphoneBuy {
 		return previewOfIphone;
 
 	}
+
 	public WebElement clickNextButton() {
-		
+
 		return clickNextButton;
-		
+
 	}
-	
+
 	public WebElement closePriviewbutton() {
-		
+
 		return closePriviewbutton;
 	}
-	
+
 	public WebElement AddToCart() {
-		
+
 		return AddToCart;
-			
+
 	}
-	
+
+	public WebElement cart() {
+
+		return cart;
+	}
+
+	public WebElement buyProduct() {
+
+		return buyProduct;
+
+	}
 
 }

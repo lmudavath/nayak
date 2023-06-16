@@ -1,14 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
-  <test thread-count="5" name="Test">
-    <classes>
-      <class name="testcases.DashBoardTest"/>
-      <class name="testcases.MyAccountModulTest"/>
-      <class name="testcases.AffiliateTest"/>
-      <class name="testcases.NewsletterTest"/>
-      <class name="testcases.LogInPageTest"/>
-      <class name="testcases.MyOrdersTest"/>
-    </classes>
-  </test> <!-- Test -->
+	<test parallel="classes" name="Test">
+		<listeners>
+			<listener class-name="listeners.Listeners" />
+		</listeners>
+		<classes>
+			<class name="testcases.DashBoardTest" />
+			<class name="testcases.CameraTabTest" />
+			<class name="testcases.MyAccountModulTest" />
+			<class name="testcases.AffiliateTest" />
+			<class name="testcases.NewsletterTest" />
+			<class name="testcases.IphoneBuyTest" />
+			<class name="testcases.LogInPageTest" />
+			<class name="testcases.MyOrdersTest" />
+		</classes>
+	</test> <!-- Test -->
 </suite> <!-- Suite -->

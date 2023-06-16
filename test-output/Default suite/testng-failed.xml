@@ -7,10 +7,10 @@
         <methods>
           <include name="openweb"/>
           <include name="close"/>
+          <include name="iPhonetab"/>
           <include name="closePriviewbutton"/>
           <include name="previewOfIphone"/>
           <include name="clickNextButton"/>
-          <include name="AddToCart"/>
         </methods>
       </class> <!-- testcases.IphoneBuyTest -->
     </classes>
