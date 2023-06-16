@@ -1,47 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <listeners>
-    <listener class-name="listeners.Listeners"/>
-  </listeners>
-  <test thread-count="5" parallel="classes" name="LimbyaNayak(failed)">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testcases.AffiliateTest">
+      <class name="testcases.IphoneBuyTest">
         <methods>
           <include name="openweb"/>
           <include name="close"/>
-          <include name="regisTer"/>
+          <include name="closePriviewbutton"/>
+          <include name="previewOfIphone"/>
+          <include name="clickNextButton"/>
+          <include name="AddToCart"/>
         </methods>
-      </class> <!-- testcases.AffiliateTest -->
-      <class name="testcases.NewsletterTest">
-        <methods>
-          <include name="unsuscribe"/>
-          <include name="openweb"/>
-          <include name="close"/>
-        </methods>
-      </class> <!-- testcases.NewsletterTest -->
-      <class name="testcases.MyOrdersTest">
-        <methods>
-          <include name="openweb"/>
-          <include name="close"/>
-          <include name="viewYourReturnReque"/>
-        </methods>
-      </class> <!-- testcases.MyOrdersTest -->
-      <class name="testcases.MyAccountModulTest">
-        <methods>
-          <include name="openweb"/>
-          <include name="close"/>
-          <include name="editinformation"/>
-        </methods>
-      </class> <!-- testcases.MyAccountModulTest -->
-      <class name="testcases.LogInPageTest">
-        <methods>
-          <include name="openweb"/>
-          <include name="close"/>
-          <include name="tablets"/>
-          <include name="software"/>
-        </methods>
-      </class> <!-- testcases.LogInPageTest -->
+      </class> <!-- testcases.IphoneBuyTest -->
     </classes>
-  </test> <!-- LimbyaNayak(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
