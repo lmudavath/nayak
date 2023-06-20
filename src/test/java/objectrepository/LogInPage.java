@@ -68,7 +68,7 @@ public class LogInPage {
 	public WebElement ClickOnLogIn() {
 
 		return ClickOnLogIn;
-
+//testing git pull
 	}
 
 }
