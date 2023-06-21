@@ -15,5 +15,6 @@ public class DashBoardTest extends BaseClassTest {
 		myAccountPage.cameras().click();
 		Listeners.test.pass("seljsj");
 		Listeners.test.fail("test case failed");
+		//testing
 	}
 }
