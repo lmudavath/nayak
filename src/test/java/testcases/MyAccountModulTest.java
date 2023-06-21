@@ -25,6 +25,7 @@ public class MyAccountModulTest extends BaseClassTest {
 		Listeners.test.pass("redirectingtoeditinformationtab");
 		String str = myaccount.editinformation().getText();
 		Assert.assertEquals(str, "Modify your address book entries");
+		//testing
 	}
 
 	@Test
@@ -33,6 +34,7 @@ public class MyAccountModulTest extends BaseClassTest {
 		Assert.assertTrue(myaccount.addressbook().isDisplayed());
 		String rtr = myaccount.addressbook().getText();
 		Assert.assertEquals(rtr, "Modify your address book entries");
+		//testing
 	}
 
 	@Test
