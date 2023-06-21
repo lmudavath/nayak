@@ -11,8 +11,7 @@ public class AffiliateTest extends BaseClassTest {
 
 	@Test
 	public void Affiliatei() {
-		//testing git
-
+//testing git
 		affiliat = new Affiliate(driver);
 		Assert.assertTrue(affiliat.affiliatee().isDisplayed());
 	}

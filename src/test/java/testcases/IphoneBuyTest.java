@@ -86,7 +86,7 @@ public class IphoneBuyTest extends BaseClassTest {
 		iphonebuy = new IphoneBuy(driver);
 		iphonebuy.buyProduct().click();
 		Thread.sleep(2000);
-
+//testing
 	}
 
 }
