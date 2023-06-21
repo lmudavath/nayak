@@ -14,7 +14,6 @@ public class AffiliateTest extends BaseClassTest {
 
 		affiliat = new Affiliate(driver);
 		Assert.assertTrue(affiliat.affiliatee().isDisplayed());
-		//testing git hub
 	}
 
 	@Test
