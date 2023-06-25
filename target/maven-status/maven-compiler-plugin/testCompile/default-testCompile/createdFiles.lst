@@ -1,0 +1,17 @@
+objectrepository\Affiliate.class
+objectrepository\MyAccountPage.class
+objectrepository\Newsletter.class
+testcases\LogInPageTest.class
+testcases\MyOrdersTest.class
+objectrepository\MyOrders.class
+testcases\DashBoardTest.class
+testcases\BaseClassTest.class
+objectrepository\IphoneBuy.class
+testcases\IphoneBuyTest.class
+listeners\Listeners.class
+testcases\CameraTabTest.class
+objectrepository\MyAccountModule.class
+testcases\NewsletterTest.class
+testcases\MyAccountModulTest.class
+objectrepository\LogInPage.class
+testcases\AffiliateTest.class
