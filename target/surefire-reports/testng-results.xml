@@ -2,34 +2,34 @@
 <testng-results ignored="0" total="38" passed="32" failed="6" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-06-24T19:22:15 IST" name="Suite" finished-at="2023-06-24T19:23:56 IST" duration-ms="101104">
+  <suite started-at="2023-06-26T10:10:13 IST" name="Suite" finished-at="2023-06-26T10:11:23 IST" duration-ms="69544">
     <groups>
     </groups>
-    <test started-at="2023-06-24T19:22:15 IST" name="Test" finished-at="2023-06-24T19:23:56 IST" duration-ms="101104">
+    <test started-at="2023-06-26T10:10:13 IST" name="Test" finished-at="2023-06-26T10:11:23 IST" duration-ms="69544">
       <class name="testcases.CameraTabTest">
-        <test-method is-config="true" signature="openweb()[pri:0, instance:testcases.CameraTabTest@6e535154]" started-at="2023-06-24T19:23:03 IST" name="openweb" finished-at="2023-06-24T19:23:18 IST" duration-ms="14786" status="PASS">
+        <test-method is-config="true" signature="openweb()[pri:0, instance:testcases.CameraTabTest@6e535154]" started-at="2023-06-26T10:10:36 IST" name="openweb" finished-at="2023-06-26T10:10:49 IST" duration-ms="12725" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openweb -->
-        <test-method signature="cameraTab()[pri:0, instance:testcases.CameraTabTest@6e535154]" started-at="2023-06-24T19:23:18 IST" name="cameraTab" finished-at="2023-06-24T19:23:18 IST" duration-ms="912" status="PASS">
+        <test-method signature="cameraTab()[pri:0, instance:testcases.CameraTabTest@6e535154]" started-at="2023-06-26T10:10:49 IST" name="cameraTab" finished-at="2023-06-26T10:10:49 IST" duration-ms="672" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cameraTab -->
-        <test-method is-config="true" signature="close()[pri:0, instance:testcases.CameraTabTest@6e535154]" started-at="2023-06-24T19:23:18 IST" name="close" finished-at="2023-06-24T19:23:21 IST" duration-ms="2150" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:testcases.CameraTabTest@6e535154]" started-at="2023-06-26T10:10:49 IST" name="close" finished-at="2023-06-26T10:10:50 IST" duration-ms="614" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
       </class> <!-- testcases.CameraTabTest -->
       <class name="testcases.AffiliateTest">
-        <test-method is-config="true" signature="openweb()[pri:0, instance:testcases.AffiliateTest@5b38c1ec]" started-at="2023-06-24T19:22:15 IST" name="openweb" finished-at="2023-06-24T19:22:56 IST" duration-ms="40510" status="PASS">
+        <test-method is-config="true" signature="openweb()[pri:0, instance:testcases.AffiliateTest@5b38c1ec]" started-at="2023-06-26T10:10:13 IST" name="openweb" finished-at="2023-06-26T10:10:34 IST" duration-ms="20958" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openweb -->
-        <test-method signature="Affiliatei()[pri:0, instance:testcases.AffiliateTest@5b38c1ec]" started-at="2023-06-24T19:22:56 IST" name="Affiliatei" finished-at="2023-06-24T19:22:57 IST" duration-ms="960" status="PASS">
+        <test-method signature="Affiliatei()[pri:0, instance:testcases.AffiliateTest@5b38c1ec]" started-at="2023-06-26T10:10:34 IST" name="Affiliatei" finished-at="2023-06-26T10:10:35 IST" duration-ms="328" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Affiliatei -->
-        <test-method signature="regisTer()[pri:0, instance:testcases.AffiliateTest@5b38c1ec]" started-at="2023-06-24T19:22:57 IST" name="regisTer" finished-at="2023-06-24T19:22:57 IST" duration-ms="390" status="FAIL">
+        <test-method signature="regisTer()[pri:0, instance:testcases.AffiliateTest@5b38c1ec]" started-at="2023-06-26T10:10:35 IST" name="regisTer" finished-at="2023-06-26T10:10:35 IST" duration-ms="264" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [Register for an affiliate accoun] but found [Register for an affiliate account]]]>
@@ -64,39 +64,39 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- regisTer -->
-        <test-method is-config="true" signature="close()[pri:0, instance:testcases.AffiliateTest@5b38c1ec]" started-at="2023-06-24T19:22:57 IST" name="close" finished-at="2023-06-24T19:23:05 IST" duration-ms="7955" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:testcases.AffiliateTest@5b38c1ec]" started-at="2023-06-26T10:10:35 IST" name="close" finished-at="2023-06-26T10:10:36 IST" duration-ms="1271" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
       </class> <!-- testcases.AffiliateTest -->
       <class name="testcases.DashBoardTest">
-        <test-method is-config="true" signature="openweb()[pri:0, instance:testcases.DashBoardTest@239a307b]" started-at="2023-06-24T19:22:15 IST" name="openweb" finished-at="2023-06-24T19:22:54 IST" duration-ms="39390" status="PASS">
+        <test-method is-config="true" signature="openweb()[pri:0, instance:testcases.DashBoardTest@239a307b]" started-at="2023-06-26T10:10:13 IST" name="openweb" finished-at="2023-06-26T10:10:34 IST" duration-ms="20775" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openweb -->
-        <test-method signature="camera()[pri:0, instance:testcases.DashBoardTest@239a307b]" started-at="2023-06-24T19:22:54 IST" name="camera" finished-at="2023-06-24T19:22:56 IST" duration-ms="1489" status="PASS">
+        <test-method signature="camera()[pri:0, instance:testcases.DashBoardTest@239a307b]" started-at="2023-06-26T10:10:34 IST" name="camera" finished-at="2023-06-26T10:10:35 IST" duration-ms="930" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- camera -->
-        <test-method is-config="true" signature="close()[pri:0, instance:testcases.DashBoardTest@239a307b]" started-at="2023-06-24T19:22:56 IST" name="close" finished-at="2023-06-24T19:23:03 IST" duration-ms="6839" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:testcases.DashBoardTest@239a307b]" started-at="2023-06-26T10:10:35 IST" name="close" finished-at="2023-06-26T10:10:36 IST" duration-ms="813" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
       </class> <!-- testcases.DashBoardTest -->
       <class name="testcases.MyAccountModulTest">
-        <test-method is-config="true" signature="openweb()[pri:0, instance:testcases.MyAccountModulTest@15a34df2]" started-at="2023-06-24T19:22:15 IST" name="openweb" finished-at="2023-06-24T19:22:56 IST" duration-ms="40795" status="PASS">
+        <test-method is-config="true" signature="openweb()[pri:0, instance:testcases.MyAccountModulTest@15a34df2]" started-at="2023-06-26T10:10:13 IST" name="openweb" finished-at="2023-06-26T10:10:35 IST" duration-ms="21999" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openweb -->
-        <test-method signature="MyAccountModuleTest()[pri:0, instance:testcases.MyAccountModulTest@15a34df2]" started-at="2023-06-24T19:22:56 IST" name="MyAccountModuleTest" finished-at="2023-06-24T19:22:57 IST" duration-ms="851" status="PASS">
+        <test-method signature="MyAccountModuleTest()[pri:0, instance:testcases.MyAccountModulTest@15a34df2]" started-at="2023-06-26T10:10:35 IST" name="MyAccountModuleTest" finished-at="2023-06-26T10:10:35 IST" duration-ms="175" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- MyAccountModuleTest -->
-        <test-method signature="addressbook()[pri:0, instance:testcases.MyAccountModulTest@15a34df2]" started-at="2023-06-24T19:22:57 IST" name="addressbook" finished-at="2023-06-24T19:22:57 IST" duration-ms="700" status="PASS">
+        <test-method signature="addressbook()[pri:0, instance:testcases.MyAccountModulTest@15a34df2]" started-at="2023-06-26T10:10:35 IST" name="addressbook" finished-at="2023-06-26T10:10:36 IST" duration-ms="447" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addressbook -->
-        <test-method signature="editinformation()[pri:0, instance:testcases.MyAccountModulTest@15a34df2]" started-at="2023-06-24T19:22:57 IST" name="editinformation" finished-at="2023-06-24T19:22:58 IST" duration-ms="213" status="FAIL">
+        <test-method signature="editinformation()[pri:0, instance:testcases.MyAccountModulTest@15a34df2]" started-at="2023-06-26T10:10:36 IST" name="editinformation" finished-at="2023-06-26T10:10:36 IST" duration-ms="88" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [Modify your address book entries] but found [Edit your account information]]]>
@@ -131,33 +131,33 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- editinformation -->
-        <test-method signature="wishlist()[pri:0, instance:testcases.MyAccountModulTest@15a34df2]" started-at="2023-06-24T19:22:58 IST" name="wishlist" finished-at="2023-06-24T19:22:58 IST" duration-ms="590" status="PASS">
+        <test-method signature="wishlist()[pri:0, instance:testcases.MyAccountModulTest@15a34df2]" started-at="2023-06-26T10:10:36 IST" name="wishlist" finished-at="2023-06-26T10:10:36 IST" duration-ms="141" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- wishlist -->
-        <test-method is-config="true" signature="close()[pri:0, instance:testcases.MyAccountModulTest@15a34df2]" started-at="2023-06-24T19:22:58 IST" name="close" finished-at="2023-06-24T19:23:03 IST" duration-ms="4866" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:testcases.MyAccountModulTest@15a34df2]" started-at="2023-06-26T10:10:36 IST" name="close" finished-at="2023-06-26T10:10:37 IST" duration-ms="569" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
       </class> <!-- testcases.MyAccountModulTest -->
       <class name="testcases.NewsletterTest">
-        <test-method is-config="true" signature="openweb()[pri:0, instance:testcases.NewsletterTest@338fc1d8]" started-at="2023-06-24T19:23:03 IST" name="openweb" finished-at="2023-06-24T19:23:18 IST" duration-ms="14744" status="PASS">
+        <test-method is-config="true" signature="openweb()[pri:0, instance:testcases.NewsletterTest@338fc1d8]" started-at="2023-06-26T10:10:36 IST" name="openweb" finished-at="2023-06-26T10:10:49 IST" duration-ms="12958" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openweb -->
-        <test-method signature="newsletter()[pri:0, instance:testcases.NewsletterTest@338fc1d8]" started-at="2023-06-24T19:23:18 IST" name="newsletter" finished-at="2023-06-24T19:23:18 IST" duration-ms="201" status="PASS">
+        <test-method signature="newsletter()[pri:0, instance:testcases.NewsletterTest@338fc1d8]" started-at="2023-06-26T10:10:49 IST" name="newsletter" finished-at="2023-06-26T10:10:49 IST" duration-ms="107" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- newsletter -->
-        <test-method signature="subscribeUnsuscribe()[pri:0, instance:testcases.NewsletterTest@338fc1d8]" started-at="2023-06-24T19:23:18 IST" name="subscribeUnsuscribe" finished-at="2023-06-24T19:23:18 IST" duration-ms="302" status="PASS">
+        <test-method signature="subscribeUnsuscribe()[pri:0, instance:testcases.NewsletterTest@338fc1d8]" started-at="2023-06-26T10:10:49 IST" name="subscribeUnsuscribe" finished-at="2023-06-26T10:10:49 IST" duration-ms="121" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- subscribeUnsuscribe -->
-        <test-method signature="subscribeclick()[pri:0, instance:testcases.NewsletterTest@338fc1d8]" started-at="2023-06-24T19:23:18 IST" name="subscribeclick" finished-at="2023-06-24T19:23:25 IST" duration-ms="6975" status="PASS">
+        <test-method signature="subscribeclick()[pri:0, instance:testcases.NewsletterTest@338fc1d8]" started-at="2023-06-26T10:10:49 IST" name="subscribeclick" finished-at="2023-06-26T10:10:56 IST" duration-ms="6427" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- subscribeclick -->
-        <test-method signature="unsuscribe()[pri:0, instance:testcases.NewsletterTest@338fc1d8]" started-at="2023-06-24T19:23:25 IST" name="unsuscribe" finished-at="2023-06-24T19:23:25 IST" duration-ms="206" status="FAIL">
+        <test-method signature="unsuscribe()[pri:0, instance:testcases.NewsletterTest@338fc1d8]" started-at="2023-06-26T10:10:56 IST" name="unsuscribe" finished-at="2023-06-26T10:10:56 IST" duration-ms="67" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [Subscribe / unsubscribe to newslette] but found [Subscribe / unsubscribe to newsletter]]]>
@@ -192,91 +192,91 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- unsuscribe -->
-        <test-method is-config="true" signature="close()[pri:0, instance:testcases.NewsletterTest@338fc1d8]" started-at="2023-06-24T19:23:26 IST" name="close" finished-at="2023-06-24T19:23:31 IST" duration-ms="5627" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:testcases.NewsletterTest@338fc1d8]" started-at="2023-06-26T10:10:56 IST" name="close" finished-at="2023-06-26T10:10:57 IST" duration-ms="907" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
       </class> <!-- testcases.NewsletterTest -->
       <class name="testcases.IphoneBuyTest">
-        <test-method is-config="true" signature="openweb()[pri:0, instance:testcases.IphoneBuyTest@4722ef0c]" started-at="2023-06-24T19:23:04 IST" name="openweb" finished-at="2023-06-24T19:23:18 IST" duration-ms="14243" status="PASS">
+        <test-method is-config="true" signature="openweb()[pri:0, instance:testcases.IphoneBuyTest@4722ef0c]" started-at="2023-06-26T10:10:36 IST" name="openweb" finished-at="2023-06-26T10:10:49 IST" duration-ms="12582" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openweb -->
-        <test-method signature="Search()[pri:1, instance:testcases.IphoneBuyTest@4722ef0c]" started-at="2023-06-24T19:23:18 IST" name="Search" finished-at="2023-06-24T19:23:21 IST" duration-ms="3406" status="PASS">
+        <test-method signature="Search()[pri:1, instance:testcases.IphoneBuyTest@4722ef0c]" started-at="2023-06-26T10:10:49 IST" name="Search" finished-at="2023-06-26T10:10:52 IST" duration-ms="3178" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Search -->
-        <test-method signature="ClickOnSearch()[pri:2, instance:testcases.IphoneBuyTest@4722ef0c]" started-at="2023-06-24T19:23:21 IST" name="ClickOnSearch" finished-at="2023-06-24T19:23:25 IST" duration-ms="3590" status="PASS">
+        <test-method signature="ClickOnSearch()[pri:2, instance:testcases.IphoneBuyTest@4722ef0c]" started-at="2023-06-26T10:10:52 IST" name="ClickOnSearch" finished-at="2023-06-26T10:10:55 IST" duration-ms="3343" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ClickOnSearch -->
-        <test-method signature="iPhonetab()[pri:3, instance:testcases.IphoneBuyTest@4722ef0c]" started-at="2023-06-24T19:23:25 IST" name="iPhonetab" finished-at="2023-06-24T19:23:29 IST" duration-ms="4073" status="PASS">
+        <test-method signature="iPhonetab()[pri:3, instance:testcases.IphoneBuyTest@4722ef0c]" started-at="2023-06-26T10:10:55 IST" name="iPhonetab" finished-at="2023-06-26T10:10:59 IST" duration-ms="3851" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- iPhonetab -->
-        <test-method signature="previewOfIphone()[pri:4, instance:testcases.IphoneBuyTest@4722ef0c]" started-at="2023-06-24T19:23:29 IST" name="previewOfIphone" finished-at="2023-06-24T19:23:33 IST" duration-ms="4545" status="PASS">
+        <test-method signature="previewOfIphone()[pri:4, instance:testcases.IphoneBuyTest@4722ef0c]" started-at="2023-06-26T10:10:59 IST" name="previewOfIphone" finished-at="2023-06-26T10:11:02 IST" duration-ms="3088" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- previewOfIphone -->
-        <test-method signature="clickNextButton()[pri:5, instance:testcases.IphoneBuyTest@4722ef0c]" started-at="2023-06-24T19:23:33 IST" name="clickNextButton" finished-at="2023-06-24T19:23:44 IST" duration-ms="10953" status="PASS">
+        <test-method signature="clickNextButton()[pri:5, instance:testcases.IphoneBuyTest@4722ef0c]" started-at="2023-06-26T10:11:02 IST" name="clickNextButton" finished-at="2023-06-26T10:11:13 IST" duration-ms="10308" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickNextButton -->
-        <test-method signature="closePriviewbutton()[pri:6, instance:testcases.IphoneBuyTest@4722ef0c]" started-at="2023-06-24T19:23:44 IST" name="closePriviewbutton" finished-at="2023-06-24T19:23:48 IST" duration-ms="3301" status="PASS">
+        <test-method signature="closePriviewbutton()[pri:6, instance:testcases.IphoneBuyTest@4722ef0c]" started-at="2023-06-26T10:11:13 IST" name="closePriviewbutton" finished-at="2023-06-26T10:11:16 IST" duration-ms="3056" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closePriviewbutton -->
-        <test-method signature="AddToCart()[pri:7, instance:testcases.IphoneBuyTest@4722ef0c]" started-at="2023-06-24T19:23:48 IST" name="AddToCart" finished-at="2023-06-24T19:23:50 IST" duration-ms="2207" status="PASS">
+        <test-method signature="AddToCart()[pri:7, instance:testcases.IphoneBuyTest@4722ef0c]" started-at="2023-06-26T10:11:16 IST" name="AddToCart" finished-at="2023-06-26T10:11:18 IST" duration-ms="2071" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AddToCart -->
-        <test-method signature="cart()[pri:8, instance:testcases.IphoneBuyTest@4722ef0c]" started-at="2023-06-24T19:23:50 IST" name="cart" finished-at="2023-06-24T19:23:52 IST" duration-ms="2323" status="PASS">
+        <test-method signature="cart()[pri:8, instance:testcases.IphoneBuyTest@4722ef0c]" started-at="2023-06-26T10:11:18 IST" name="cart" finished-at="2023-06-26T10:11:20 IST" duration-ms="2066" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cart -->
-        <test-method signature="buyProduct()[pri:9, instance:testcases.IphoneBuyTest@4722ef0c]" started-at="2023-06-24T19:23:52 IST" name="buyProduct" finished-at="2023-06-24T19:23:55 IST" duration-ms="2984" status="PASS">
+        <test-method signature="buyProduct()[pri:9, instance:testcases.IphoneBuyTest@4722ef0c]" started-at="2023-06-26T10:11:20 IST" name="buyProduct" finished-at="2023-06-26T10:11:22 IST" duration-ms="2568" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- buyProduct -->
-        <test-method is-config="true" signature="close()[pri:0, instance:testcases.IphoneBuyTest@4722ef0c]" started-at="2023-06-24T19:23:55 IST" name="close" finished-at="2023-06-24T19:23:56 IST" duration-ms="876" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:testcases.IphoneBuyTest@4722ef0c]" started-at="2023-06-26T10:11:22 IST" name="close" finished-at="2023-06-26T10:11:23 IST" duration-ms="348" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
       </class> <!-- testcases.IphoneBuyTest -->
       <class name="testcases.LogInPageTest">
-        <test-method is-config="true" signature="openweb()[pri:0, instance:testcases.LogInPageTest@48e1f6c7]" started-at="2023-06-24T19:22:15 IST" name="openweb" finished-at="2023-06-24T19:22:56 IST" duration-ms="40821" status="PASS">
+        <test-method is-config="true" signature="openweb()[pri:0, instance:testcases.LogInPageTest@48e1f6c7]" started-at="2023-06-26T10:10:13 IST" name="openweb" finished-at="2023-06-26T10:10:35 IST" duration-ms="21448" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openweb -->
-        <test-method signature="LogInPager()[pri:0, instance:testcases.LogInPageTest@48e1f6c7]" started-at="2023-06-24T19:22:56 IST" name="LogInPager" finished-at="2023-06-24T19:23:00 IST" duration-ms="3646" status="PASS">
+        <test-method signature="LogInPager()[pri:0, instance:testcases.LogInPageTest@48e1f6c7]" started-at="2023-06-26T10:10:35 IST" name="LogInPager" finished-at="2023-06-26T10:10:38 IST" duration-ms="3221" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LogInPager -->
-        <test-method signature="cameras()[pri:0, instance:testcases.LogInPageTest@48e1f6c7]" started-at="2023-06-24T19:23:00 IST" name="cameras" finished-at="2023-06-24T19:23:03 IST" duration-ms="3371" status="PASS">
+        <test-method signature="cameras()[pri:0, instance:testcases.LogInPageTest@48e1f6c7]" started-at="2023-06-26T10:10:38 IST" name="cameras" finished-at="2023-06-26T10:10:41 IST" duration-ms="3066" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cameras -->
-        <test-method signature="components()[pri:0, instance:testcases.LogInPageTest@48e1f6c7]" started-at="2023-06-24T19:23:03 IST" name="components" finished-at="2023-06-24T19:23:06 IST" duration-ms="3187" status="PASS">
+        <test-method signature="components()[pri:0, instance:testcases.LogInPageTest@48e1f6c7]" started-at="2023-06-26T10:10:41 IST" name="components" finished-at="2023-06-26T10:10:45 IST" duration-ms="3645" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- components -->
-        <test-method signature="desktopButto()[pri:0, instance:testcases.LogInPageTest@48e1f6c7]" started-at="2023-06-24T19:23:06 IST" name="desktopButto" finished-at="2023-06-24T19:23:10 IST" duration-ms="3925" status="PASS">
+        <test-method signature="desktopButto()[pri:0, instance:testcases.LogInPageTest@48e1f6c7]" started-at="2023-06-26T10:10:45 IST" name="desktopButto" finished-at="2023-06-26T10:10:48 IST" duration-ms="3081" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- desktopButto -->
-        <test-method signature="laptopsandNotebooks()[pri:0, instance:testcases.LogInPageTest@48e1f6c7]" started-at="2023-06-24T19:23:10 IST" name="laptopsandNotebooks" finished-at="2023-06-24T19:23:13 IST" duration-ms="3139" status="PASS">
+        <test-method signature="laptopsandNotebooks()[pri:0, instance:testcases.LogInPageTest@48e1f6c7]" started-at="2023-06-26T10:10:48 IST" name="laptopsandNotebooks" finished-at="2023-06-26T10:10:51 IST" duration-ms="3096" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- laptopsandNotebooks -->
-        <test-method signature="mp3Players()[pri:0, instance:testcases.LogInPageTest@48e1f6c7]" started-at="2023-06-24T19:23:13 IST" name="mp3Players" finished-at="2023-06-24T19:23:17 IST" duration-ms="4021" status="PASS">
+        <test-method signature="mp3Players()[pri:0, instance:testcases.LogInPageTest@48e1f6c7]" started-at="2023-06-26T10:10:51 IST" name="mp3Players" finished-at="2023-06-26T10:10:54 IST" duration-ms="3036" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mp3Players -->
-        <test-method signature="phonesandPdas()[pri:0, instance:testcases.LogInPageTest@48e1f6c7]" started-at="2023-06-24T19:23:17 IST" name="phonesandPdas" finished-at="2023-06-24T19:23:21 IST" duration-ms="3659" status="PASS">
+        <test-method signature="phonesandPdas()[pri:0, instance:testcases.LogInPageTest@48e1f6c7]" started-at="2023-06-26T10:10:54 IST" name="phonesandPdas" finished-at="2023-06-26T10:10:57 IST" duration-ms="3041" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- phonesandPdas -->
-        <test-method signature="software()[pri:0, instance:testcases.LogInPageTest@48e1f6c7]" started-at="2023-06-24T19:23:21 IST" name="software" finished-at="2023-06-24T19:23:21 IST" duration-ms="58" status="FAIL">
+        <test-method signature="software()[pri:0, instance:testcases.LogInPageTest@48e1f6c7]" started-at="2023-06-26T10:10:57 IST" name="software" finished-at="2023-06-26T10:10:57 IST" duration-ms="30" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -309,7 +309,7 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- software -->
-        <test-method signature="tablets()[pri:0, instance:testcases.LogInPageTest@48e1f6c7]" started-at="2023-06-24T19:23:21 IST" name="tablets" finished-at="2023-06-24T19:23:21 IST" duration-ms="56" status="FAIL">
+        <test-method signature="tablets()[pri:0, instance:testcases.LogInPageTest@48e1f6c7]" started-at="2023-06-26T10:10:57 IST" name="tablets" finished-at="2023-06-26T10:10:57 IST" duration-ms="29" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -342,29 +342,29 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tablets -->
-        <test-method is-config="true" signature="close()[pri:0, instance:testcases.LogInPageTest@48e1f6c7]" started-at="2023-06-24T19:23:21 IST" name="close" finished-at="2023-06-24T19:23:24 IST" duration-ms="2748" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:testcases.LogInPageTest@48e1f6c7]" started-at="2023-06-26T10:10:57 IST" name="close" finished-at="2023-06-26T10:10:57 IST" duration-ms="300" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
       </class> <!-- testcases.LogInPageTest -->
       <class name="testcases.MyOrdersTest">
-        <test-method is-config="true" signature="openweb()[pri:0, instance:testcases.MyOrdersTest@55cb6996]" started-at="2023-06-24T19:22:15 IST" name="openweb" finished-at="2023-06-24T19:22:56 IST" duration-ms="40798" status="PASS">
+        <test-method is-config="true" signature="openweb()[pri:0, instance:testcases.MyOrdersTest@55cb6996]" started-at="2023-06-26T10:10:13 IST" name="openweb" finished-at="2023-06-26T10:10:34 IST" duration-ms="20753" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openweb -->
-        <test-method signature="MyOrder()[pri:0, instance:testcases.MyOrdersTest@55cb6996]" started-at="2023-06-24T19:22:56 IST" name="MyOrder" finished-at="2023-06-24T19:22:56 IST" duration-ms="637" status="PASS">
+        <test-method signature="MyOrder()[pri:0, instance:testcases.MyOrdersTest@55cb6996]" started-at="2023-06-26T10:10:34 IST" name="MyOrder" finished-at="2023-06-26T10:10:34 IST" duration-ms="239" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- MyOrder -->
-        <test-method signature="download()[pri:0, instance:testcases.MyOrdersTest@55cb6996]" started-at="2023-06-24T19:22:56 IST" name="download" finished-at="2023-06-24T19:22:57 IST" duration-ms="470" status="PASS">
+        <test-method signature="download()[pri:0, instance:testcases.MyOrdersTest@55cb6996]" started-at="2023-06-26T10:10:34 IST" name="download" finished-at="2023-06-26T10:10:35 IST" duration-ms="169" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- download -->
-        <test-method signature="recurringPayment()[pri:0, instance:testcases.MyOrdersTest@55cb6996]" started-at="2023-06-24T19:22:57 IST" name="recurringPayment" finished-at="2023-06-24T19:22:57 IST" duration-ms="368" status="PASS">
+        <test-method signature="recurringPayment()[pri:0, instance:testcases.MyOrdersTest@55cb6996]" started-at="2023-06-26T10:10:35 IST" name="recurringPayment" finished-at="2023-06-26T10:10:35 IST" duration-ms="418" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- recurringPayment -->
-        <test-method signature="viewYourReturnReque()[pri:0, instance:testcases.MyOrdersTest@55cb6996]" started-at="2023-06-24T19:22:57 IST" name="viewYourReturnReque" finished-at="2023-06-24T19:22:58 IST" duration-ms="214" status="FAIL">
+        <test-method signature="viewYourReturnReque()[pri:0, instance:testcases.MyOrdersTest@55cb6996]" started-at="2023-06-26T10:10:35 IST" name="viewYourReturnReque" finished-at="2023-06-26T10:10:35 IST" duration-ms="236" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [viewYourReturnRequest] but found [View your return requests]]]>
@@ -399,23 +399,23 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- viewYourReturnReque -->
-        <test-method signature="viewYourReturnRequest()[pri:0, instance:testcases.MyOrdersTest@55cb6996]" started-at="2023-06-24T19:22:58 IST" name="viewYourReturnRequest" finished-at="2023-06-24T19:22:58 IST" duration-ms="246" status="PASS">
+        <test-method signature="viewYourReturnRequest()[pri:0, instance:testcases.MyOrdersTest@55cb6996]" started-at="2023-06-26T10:10:35 IST" name="viewYourReturnRequest" finished-at="2023-06-26T10:10:35 IST" duration-ms="107" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- viewYourReturnRequest -->
-        <test-method signature="viewyourorderhis()[pri:0, instance:testcases.MyOrdersTest@55cb6996]" started-at="2023-06-24T19:22:58 IST" name="viewyourorderhis" finished-at="2023-06-24T19:22:58 IST" duration-ms="219" status="PASS">
+        <test-method signature="viewyourorderhis()[pri:0, instance:testcases.MyOrdersTest@55cb6996]" started-at="2023-06-26T10:10:35 IST" name="viewyourorderhis" finished-at="2023-06-26T10:10:35 IST" duration-ms="81" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- viewyourorderhis -->
-        <test-method signature="yourRewardPoint()[pri:0, instance:testcases.MyOrdersTest@55cb6996]" started-at="2023-06-24T19:22:58 IST" name="yourRewardPoint" finished-at="2023-06-24T19:22:58 IST" duration-ms="480" status="PASS">
+        <test-method signature="yourRewardPoint()[pri:0, instance:testcases.MyOrdersTest@55cb6996]" started-at="2023-06-26T10:10:35 IST" name="yourRewardPoint" finished-at="2023-06-26T10:10:35 IST" duration-ms="75" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- yourRewardPoint -->
-        <test-method signature="yourTransactions()[pri:0, instance:testcases.MyOrdersTest@55cb6996]" started-at="2023-06-24T19:22:58 IST" name="yourTransactions" finished-at="2023-06-24T19:22:59 IST" duration-ms="397" status="PASS">
+        <test-method signature="yourTransactions()[pri:0, instance:testcases.MyOrdersTest@55cb6996]" started-at="2023-06-26T10:10:35 IST" name="yourTransactions" finished-at="2023-06-26T10:10:36 IST" duration-ms="92" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- yourTransactions -->
-        <test-method is-config="true" signature="close()[pri:0, instance:testcases.MyOrdersTest@55cb6996]" started-at="2023-06-24T19:22:59 IST" name="close" finished-at="2023-06-24T19:23:04 IST" duration-ms="4656" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:testcases.MyOrdersTest@55cb6996]" started-at="2023-06-26T10:10:36 IST" name="close" finished-at="2023-06-26T10:10:36 IST" duration-ms="818" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
