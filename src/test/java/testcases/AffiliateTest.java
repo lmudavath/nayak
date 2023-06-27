@@ -11,14 +11,12 @@ public class AffiliateTest extends BaseClassTest {
 
 	@Test
 	public void Affiliatei() {
-//testing git
 		affiliat = new Affiliate(driver);
 		Assert.assertTrue(affiliat.affiliatee().isDisplayed());
 	}
 
 	@Test
 	public void regisTer() {
-
 		affiliat = new Affiliate(driver);
 		String regtext = affiliat.register().getText();
 		Assert.assertEquals(regtext, "Register for an affiliate accoun");
