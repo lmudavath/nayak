@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="71.073" tests="38" errors="0" skipped="0" failures="6">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="114.042" tests="38" errors="0" skipped="0" failures="6">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="webdriver.chrome.driver" value="C:\Users\lmudavath\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
-    <property name="sun.java.command" value="C:\Users\lmudavath\AppData\Local\Temp\surefire14631555339395876995\surefirebooter-20230626101012330_3.jar C:\Users\lmudavath\AppData\Local\Temp\surefire14631555339395876995 2023-06-26T10-10-12_110-jvmRun1 surefire-20230626101012330_1tmp surefire_0-20230626101012330_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\lmudavath\AppData\Local\Temp\surefire7998045119938622331\surefirebooter-20230627231845613_3.jar C:\Users\lmudavath\AppData\Local\Temp\surefire7998045119938622331 2023-06-27T23-18-45_193-jvmRun1 surefire-20230627231845613_1tmp surefire_0-20230627231845613_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="E:\Nayak\nayak\target\test-classes;E:\Nayak\nayak\target\classes;C:\Users\lmudavath\.m2\repository\org\apache\logging\log4j\log4j-core\2.20.0\log4j-core-2.20.0.jar;C:\Users\lmudavath\.m2\repository\commons-io\commons-io\2.12.0\commons-io-2.12.0.jar;C:\Users\lmudavath\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar;C:\Users\lmudavath\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\lmudavath\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\lmudavath\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\lmudavath\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar;C:\Users\lmudavath\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\lmudavath\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\lmudavath\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\lmudavath\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\lmudavath\.m2\repository\org\projectlombok\lombok\1.18.28\lombok-1.18.28.jar;C:\Users\lmudavath\.m2\repository\org\seleniumhq\selenium\selenium-java\4.9.1\selenium-java-4.9.1.jar;C:\Users\lmudavath\.m2\repository\org\seleniumhq\selenium\selenium-api\4.9.1\selenium-api-4.9.1.jar;C:\Users\lmudavath\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.9.1\selenium-chrome-driver-4.9.1.jar;C:\Users\lmudavath\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar;C:\Users\lmudavath\.m2\repository\com\google\auto\service\auto-service\1.0.1\auto-service-1.0.1.jar;C:\Users\lmudavath\.m2\repository\com\google\auto\auto-common\1.2\auto-common-1.2.jar;C:\Users\lmudavath\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar;C:\Users\lmudavath\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\lmudavath\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\lmudavath\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\lmudavath\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\lmudavath\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar;C:\Users\lmudavath\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\lmudavath\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.9.1\selenium-chromium-driver-4.9.1.jar;C:\Users\lmudavath\.m2\repository\org\seleniumhq\selenium\selenium-json\4.9.1\selenium-json-4.9.1.jar;C:\Users\lmudavath\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.9.1\selenium-manager-4.9.1.jar;C:\Users\lmudavath\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v111\4.9.1\selenium-devtools-v111-4.9.1.jar;C:\Users\lmudavath\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v112\4.9.1\selenium-devtools-v112-4.9.1.jar;C:\Users\lmudavath\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v113\4.9.1\selenium-devtools-v113-4.9.1.jar;C:\Users\lmudavath\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.9.1\selenium-devtools-v85-4.9.1.jar;C:\Users\lmudavath\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.9.1\selenium-edge-driver-4.9.1.jar;C:\Users\lmudavath\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.9.1\selenium-firefox-driver-4.9.1.jar;C:\Users\lmudavath\.m2\repository\org\seleniumhq\selenium\selenium-http\4.9.1\selenium-http-4.9.1.jar;C:\Users\lmudavath\.m2\repository\dev\failsafe\failsafe\3.3.1\failsafe-3.3.1.jar;C:\Users\lmudavath\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.9.1\selenium-ie-driver-4.9.1.jar;C:\Users\lmudavath\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.9.1\selenium-remote-driver-4.9.1.jar;C:\Users\lmudavath\.m2\repository\io\netty\netty-buffer\4.1.91.Final\netty-buffer-4.1.91.Final.jar;C:\Users\lmudavath\.m2\repository\io\netty\netty-codec-http\4.1.91.Final\netty-codec-http-4.1.91.Final.jar;C:\Users\lmudavath\.m2\repository\io\netty\netty-codec\4.1.91.Final\netty-codec-4.1.91.Final.jar;C:\Users\lmudavath\.m2\repository\io\netty\netty-handler\4.1.91.Final\netty-handler-4.1.91.Final.jar;C:\Users\lmudavath\.m2\repository\io\netty\netty-common\4.1.91.Final\netty-common-4.1.91.Final.jar;C:\Users\lmudavath\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.91.Final\netty-transport-classes-epoll-4.1.91.Final.jar;C:\Users\lmudavath\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.91.Final\netty-transport-classes-kqueue-4.1.91.Final.jar;C:\Users\lmudavath\.m2\repository\io\netty\netty-transport-native-epoll\4.1.91.Final\netty-transport-native-epoll-4.1.91.Final.jar;C:\Users\lmudavath\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.91.Final\netty-transport-native-kqueue-4.1.91.Final.jar;C:\Users\lmudavath\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.91.Final\netty-transport-native-unix-common-4.1.91.Final.jar;C:\Users\lmudavath\.m2\repository\io\netty\netty-transport\4.1.91.Final\netty-transport-4.1.91.Final.jar;C:\Users\lmudavath\.m2\repository\io\netty\netty-resolver\4.1.91.Final\netty-resolver-4.1.91.Final.jar;C:\Users\lmudavath\.m2\repository\io\opentelemetry\opentelemetry-api\1.25.0\opentelemetry-api-1.25.0.jar;C:\Users\lmudavath\.m2\repository\io\opentelemetry\opentelemetry-context\1.25.0\opentelemetry-context-1.25.0.jar;C:\Users\lmudavath\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.25.0\opentelemetry-exporter-logging-1.25.0.jar;C:\Users\lmudavath\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.25.0\opentelemetry-sdk-metrics-1.25.0.jar;C:\Users\lmudavath\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.25.0-alpha\opentelemetry-sdk-logs-1.25.0-alpha.jar;C:\Users\lmudavath\.m2\repository\io\opentelemetry\opentelemetry-api-logs\1.25.0-alpha\opentelemetry-api-logs-1.25.0-alpha.jar;C:\Users\lmudavath\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.25.0-alpha\opentelemetry-api-events-1.25.0-alpha.jar;C:\Users\lmudavath\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.25.0\opentelemetry-sdk-common-1.25.0.jar;C:\Users\lmudavath\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.25.0\opentelemetry-sdk-extension-autoconfigure-spi-1.25.0.jar;C:\Users\lmudavath\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.25.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.25.0-alpha.jar;C:\Users\lmudavath\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.25.0\opentelemetry-sdk-trace-1.25.0.jar;C:\Users\lmudavath\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.25.0\opentelemetry-sdk-1.25.0.jar;C:\Users\lmudavath\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\lmudavath\.m2\repository\io\ous\jtoml\2.0.0\jtoml-2.0.0.jar;C:\Users\lmudavath\.m2\repository\net\bytebuddy\byte-buddy\1.14.4\byte-buddy-1.14.4.jar;C:\Users\lmudavath\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\lmudavath\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\lmudavath\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\lmudavath\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\lmudavath\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\lmudavath\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\lmudavath\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\lmudavath\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\lmudavath\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\lmudavath\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.9.1\selenium-safari-driver-4.9.1.jar;C:\Users\lmudavath\.m2\repository\org\seleniumhq\selenium\selenium-support\4.9.1\selenium-support-4.9.1.jar;C:\Users\lmudavath\.m2\repository\io\github\bonigarcia\webdrivermanager\5.3.2\webdrivermanager-5.3.2.jar;C:\Users\lmudavath\.m2\repository\com\github\docker-java\docker-java\3.2.14\docker-java-3.2.14.jar;C:\Users\lmudavath\.m2\repository\com\github\docker-java\docker-java-core\3.2.14\docker-java-core-3.2.14.jar;C:\Users\lmudavath\.m2\repository\com\github\docker-java\docker-java-api\3.2.14\docker-java-api-3.2.14.jar;C:\Users\lmudavath\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\lmudavath\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\lmudavath\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\lmudavath\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\lmudavath\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.64\bcpkix-jdk15on-1.64.jar;C:\Users\lmudavath\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.64\bcprov-jdk15on-1.64.jar;C:\Users\lmudavath\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\lmudavath\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.2.14\docker-java-transport-httpclient5-3.2.14.jar;C:\Users\lmudavath\.m2\repository\com\github\docker-java\docker-java-transport\3.2.14\docker-java-transport-3.2.14.jar;C:\Users\lmudavath\.m2\repository\net\java\dev\jna\jna\5.12.1\jna-5.12.1.jar;C:\Users\lmudavath\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\lmudavath\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\lmudavath\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\lmudavath\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\lmudavath\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\lmudavath\.m2\repository\org\apache\logging\log4j\log4j-api\2.20.0\log4j-api-2.20.0.jar;C:\Users\lmudavath\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\lmudavath\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\lmudavath\AppData\Local\Temp\surefire14631555339395876995\surefirebooter-20230626101012330_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\lmudavath\AppData\Local\Temp\surefire7998045119938622331\surefirebooter-20230627231845613_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.7+8-LTS-224"/>
@@ -57,76 +57,43 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="MyOrder" classname="testcases.MyOrdersTest" time="0.074">
+  <testcase name="Affiliatei" classname="testcases.AffiliateTest" time="0.248">
     <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-Starting ChromeDriver 114.0.573S5t.9a0r t(i3n8g6 bCch0r9oem8efD4rf2iev0er2S 5t1e1ad4rd.at0ei.1n5g273 3fC53h.6r9fo06m 2e(6D330r89i66vbaece40r99 -e1r81ef4f4.0sf./25be70r32a55n.ec9dh0d- ah(ee13a28d3S6sfSbt/3cat56ra7ftr3i6t5n2i@6gn{3 g#C001 9h0C956hre2aro8}emo)e4mf D9eo-rDnrir veipfevosrer /rtb1  r1134a13n74.5.c080.h.5-
-5h7O73en3a5l5.d.ys99 4/00lf o 5c2((7ae333l0885 266c@5bboccen0d0n99deeaec8{t8fei#4f1of124n203fse5 2f02ae32r}506e)ef2  d65aode2anld6e ld31op0awo2e93e16rfda2t3.e 6342ff
-9633P-2l266r6fe306ea0f2s9
-66seOa3 /e4ns0bl9e-9ryr6ea ane efclhsho4-thct/ap9beslr-ada: rsnc/ec/o/fh5nsc-7hnh3ree5/coa@mtdb{eisr#do/1a5r0nn75ics32vh 5}e-@a)r{rh#. e1eco0 ahn5adr2ol sml}p/)oio5 uwr7oemt3nd. 5 o.@pr5{o
-g6#rP/91tsl00 ee54ac2
-8}sO4u)e7nr 0l oiysn
-t e Oylpen-oo lrcchytota  tnl3sp 6sic7d:2o/8ne/rn
-caeOhtcnirtlooiymno eslno dsrfc aaiolrrv ee c rsoau.nlgnclehgocrewtsoeimtodiin.usolm .a
-nooPrcsrlea ge lo/aa nssl celekoc oneuwsenreepeidetci. ynth-gct
- iooCPtnhnlpsrsesi o:adam/esre/reDcea  rhtsriaioevlomenlee dsorhr wt iesvftdaeopf.rrse.: .
-csP/hul/r
-egcoaghmserieosu mstmeei.deoro rinhgvst/et sopresnc :u/kr./eicecthpryio-mncegodrn isCvihdreeormare.tDcihrorinosvmie urfmo .rso rasguf/gesge.ecsut
-riiotny-sc onosni dekreaetpiionngs  fCohr rsuogmgeesDtriionvse ro ns akefeep.in
-g hCrhorommieuDmr.iovregr /sasfee.cu
-rity-considerations for suggestions on keeping ChromeDriver safe.
+Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 44162
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 12198
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 40941
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
 ChromeDriver was started successfully.
 ChromeDriver was started successfully.
+Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 31397
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 6748
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
 ChromeDriver was started successfully.
-Jun 26, 2023 10:10:26 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Jun 27, 2023 11:19:13 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 114, so returning the closest version found: 113
-Jun 26, 2023 10:10:26 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Jun 27, 2023 11:19:13 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 114, so returning the closest version found: 113
-Jun 26, 2023 10:10:26 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Jun 27, 2023 11:19:13 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 114, so returning the closest version found: 113
-Jun 26, 2023 10:10:26 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Jun 27, 2023 11:19:13 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 114, so returning the closest version found: 113
-Jun 26, 2023 10:10:26 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Jun 27, 2023 11:19:13 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 114, so returning the closest version found: 113
 ]]></system-err>
   </testcase>
-  <testcase name="download" classname="testcases.MyOrdersTest" time="0.168"/>
-  <testcase name="recurringPayment" classname="testcases.MyOrdersTest" time="0.185"/>
-  <testcase name="viewYourReturnReque" classname="testcases.MyOrdersTest" time="0.239">
-    <failure message="expected [viewYourReturnRequest] but found [View your return requests]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [viewYourReturnRequest] but found [View your return requests]
-	at org.testng.Assert.fail(Assert.java:110)
-	at org.testng.Assert.failNotEquals(Assert.java:1577)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
-	at org.testng.Assert.assertEquals(Assert.java:131)
-	at org.testng.Assert.assertEquals(Assert.java:655)
-	at org.testng.Assert.assertEquals(Assert.java:665)
-	at testcases.MyOrdersTest.viewYourReturnReque(MyOrdersTest.java:72)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:833)
-]]></failure>
-  </testcase>
-  <testcase name="viewYourReturnRequest" classname="testcases.MyOrdersTest" time="0.107"/>
-  <testcase name="viewyourorderhis" classname="testcases.MyOrdersTest" time="0.064"/>
-  <testcase name="yourRewardPoint" classname="testcases.MyOrdersTest" time="0.073"/>
-  <testcase name="yourTransactions" classname="testcases.MyOrdersTest" time="0.056"/>
-  <testcase name="Affiliatei" classname="testcases.AffiliateTest" time="0.075"/>
-  <testcase name="regisTer" classname="testcases.AffiliateTest" time="0.128">
+  <testcase name="regisTer" classname="testcases.AffiliateTest" time="0.139">
     <failure message="expected [Register for an affiliate accoun] but found [Register for an affiliate account]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [Register for an affiliate accoun] but found [Register for an affiliate account]
 	at org.testng.Assert.fail(Assert.java:110)
 	at org.testng.Assert.failNotEquals(Assert.java:1577)
@@ -152,10 +119,42 @@ WARNING: Unable to find an exact match for CDP version 114, so returning the clo
 	at java.base/java.lang.Thread.run(Thread.java:833)
 ]]></failure>
   </testcase>
-  <testcase name="camera" classname="testcases.DashBoardTest" time="0.088"/>
-  <testcase name="MyAccountModuleTest" classname="testcases.MyAccountModulTest" time="0.036"/>
-  <testcase name="addressbook" classname="testcases.MyAccountModulTest" time="0.447"/>
-  <testcase name="editinformation" classname="testcases.MyAccountModulTest" time="0.09">
+  <testcase name="MyOrder" classname="testcases.MyOrdersTest" time="0"/>
+  <testcase name="download" classname="testcases.MyOrdersTest" time="0.074"/>
+  <testcase name="recurringPayment" classname="testcases.MyOrdersTest" time="0.202"/>
+  <testcase name="viewYourReturnReque" classname="testcases.MyOrdersTest" time="0.057">
+    <failure message="expected [viewYourReturnRequest] but found [View your return requests]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [viewYourReturnRequest] but found [View your return requests]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:655)
+	at org.testng.Assert.assertEquals(Assert.java:665)
+	at testcases.MyOrdersTest.viewYourReturnReque(MyOrdersTest.java:72)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+]]></failure>
+  </testcase>
+  <testcase name="viewYourReturnRequest" classname="testcases.MyOrdersTest" time="0.347"/>
+  <testcase name="viewyourorderhis" classname="testcases.MyOrdersTest" time="0.365"/>
+  <testcase name="yourRewardPoint" classname="testcases.MyOrdersTest" time="0.136"/>
+  <testcase name="yourTransactions" classname="testcases.MyOrdersTest" time="0.154"/>
+  <testcase name="MyAccountModuleTest" classname="testcases.MyAccountModulTest" time="0.137"/>
+  <testcase name="addressbook" classname="testcases.MyAccountModulTest" time="0.183"/>
+  <testcase name="editinformation" classname="testcases.MyAccountModulTest" time="0.169">
     <failure message="expected [Modify your address book entries] but found [Edit your account information]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [Modify your address book entries] but found [Edit your account information]
 	at org.testng.Assert.fail(Assert.java:110)
 	at org.testng.Assert.failNotEquals(Assert.java:1577)
@@ -181,37 +180,38 @@ WARNING: Unable to find an exact match for CDP version 114, so returning the clo
 	at java.base/java.lang.Thread.run(Thread.java:833)
 ]]></failure>
   </testcase>
-  <testcase name="wishlist" classname="testcases.MyAccountModulTest" time="0.142"/>
-  <testcase name="LogInPager" classname="testcases.LogInPageTest" time="1.956">
-    <system-err><![CDATA[Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 40065
+  <testcase name="wishlist" classname="testcases.MyAccountModulTest" time="0.049"/>
+  <testcase name="camera" classname="testcases.DashBoardTest" time="0.06"/>
+  <testcase name="LogInPager" classname="testcases.LogInPageTest" time="1.261"/>
+  <testcase name="cameras" classname="testcases.LogInPageTest" time="3.217">
+    <system-err><![CDATA[Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 48404
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 47872
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestionsS toanr tkienegp iCnhgr oCmherDormievDerri v1e1r4 safe.
-.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 43457
+Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 36505
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
 ChromeDriver was started successfully.
 ChromeDriver was started successfully.
 ]]></system-err>
   </testcase>
-  <testcase name="cameras" classname="testcases.LogInPageTest" time="3.067"/>
-  <testcase name="components" classname="testcases.LogInPageTest" time="3.644">
-    <system-err><![CDATA[Jun 26, 2023 10:10:44 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="components" classname="testcases.LogInPageTest" time="4.024">
+    <system-err><![CDATA[Jun 27, 2023 11:19:39 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 114, so returning the closest version found: 113
-Jun 26, 2023 10:10:44 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 114, so returning the closest version found: 113
-Jun 26, 2023 10:10:44 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Jun 27, 2023 11:19:39 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 114, so returning the closest version found: 113
 ]]></system-err>
   </testcase>
-  <testcase name="desktopButto" classname="testcases.LogInPageTest" time="3.085"/>
-  <testcase name="laptopsandNotebooks" classname="testcases.LogInPageTest" time="1.526"/>
-  <testcase name="mp3Players" classname="testcases.LogInPageTest" time="1.788"/>
-  <testcase name="phonesandPdas" classname="testcases.LogInPageTest" time="1.177"/>
-  <testcase name="software" classname="testcases.LogInPageTest" time="0.031">
+  <testcase name="desktopButto" classname="testcases.LogInPageTest" time="3.301">
+    <system-err><![CDATA[Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 27089
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+]]></system-err>
+  </testcase>
+  <testcase name="laptopsandNotebooks" classname="testcases.LogInPageTest" time="3.156"/>
+  <testcase name="mp3Players" classname="testcases.LogInPageTest" time="0.864"/>
+  <testcase name="phonesandPdas" classname="testcases.LogInPageTest" time="1.185"/>
+  <testcase name="software" classname="testcases.LogInPageTest" time="0.505">
     <failure message="expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:110)
 	at org.testng.Assert.failNotEquals(Assert.java:1577)
@@ -235,7 +235,7 @@ WARNING: Unable to find an exact match for CDP version 114, so returning the clo
 	at java.base/java.lang.Thread.run(Thread.java:833)
 ]]></failure>
   </testcase>
-  <testcase name="tablets" classname="testcases.LogInPageTest" time="0.03">
+  <testcase name="tablets" classname="testcases.LogInPageTest" time="0.471">
     <failure message="expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:110)
 	at org.testng.Assert.failNotEquals(Assert.java:1577)
@@ -259,10 +259,15 @@ WARNING: Unable to find an exact match for CDP version 114, so returning the clo
 	at java.base/java.lang.Thread.run(Thread.java:833)
 ]]></failure>
   </testcase>
-  <testcase name="newsletter" classname="testcases.NewsletterTest" time="0.106"/>
-  <testcase name="subscribeUnsuscribe" classname="testcases.NewsletterTest" time="0.12"/>
-  <testcase name="subscribeclick" classname="testcases.NewsletterTest" time="0.308"/>
-  <testcase name="unsuscribe" classname="testcases.NewsletterTest" time="0.067">
+  <testcase name="cameraTab" classname="testcases.CameraTabTest" time="0.57"/>
+  <testcase name="newsletter" classname="testcases.NewsletterTest" time="0.64"/>
+  <testcase name="subscribeUnsuscribe" classname="testcases.NewsletterTest" time="0.228"/>
+  <testcase name="subscribeclick" classname="testcases.NewsletterTest" time="5.592">
+    <system-err><![CDATA[Jun 27, 2023 11:19:57 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 114, so returning the closest version found: 113
+]]></system-err>
+  </testcase>
+  <testcase name="unsuscribe" classname="testcases.NewsletterTest" time="0.305">
     <failure message="expected [Subscribe / unsubscribe to newslette] but found [Subscribe / unsubscribe to newsletter]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [Subscribe / unsubscribe to newslette] but found [Subscribe / unsubscribe to newsletter]
 	at org.testng.Assert.fail(Assert.java:110)
 	at org.testng.Assert.failNotEquals(Assert.java:1577)
@@ -288,14 +293,13 @@ WARNING: Unable to find an exact match for CDP version 114, so returning the clo
 	at java.base/java.lang.Thread.run(Thread.java:833)
 ]]></failure>
   </testcase>
-  <testcase name="cameraTab" classname="testcases.CameraTabTest" time="0.021"/>
-  <testcase name="Search" classname="testcases.IphoneBuyTest" time="1.248"/>
-  <testcase name="ClickOnSearch" classname="testcases.IphoneBuyTest" time="1.554"/>
-  <testcase name="iPhonetab" classname="testcases.IphoneBuyTest" time="2.331"/>
-  <testcase name="previewOfIphone" classname="testcases.IphoneBuyTest" time="3.089"/>
-  <testcase name="clickNextButton" classname="testcases.IphoneBuyTest" time="10.309"/>
-  <testcase name="closePriviewbutton" classname="testcases.IphoneBuyTest" time="3.057"/>
-  <testcase name="AddToCart" classname="testcases.IphoneBuyTest" time="2.071"/>
-  <testcase name="cart" classname="testcases.IphoneBuyTest" time="2.065"/>
-  <testcase name="buyProduct" classname="testcases.IphoneBuyTest" time="2.568"/>
+  <testcase name="Search" classname="testcases.IphoneBuyTest" time="3.336"/>
+  <testcase name="ClickOnSearch" classname="testcases.IphoneBuyTest" time="3.543"/>
+  <testcase name="iPhonetab" classname="testcases.IphoneBuyTest" time="4.061"/>
+  <testcase name="previewOfIphone" classname="testcases.IphoneBuyTest" time="3.339"/>
+  <testcase name="clickNextButton" classname="testcases.IphoneBuyTest" time="10.694"/>
+  <testcase name="closePriviewbutton" classname="testcases.IphoneBuyTest" time="3.179"/>
+  <testcase name="AddToCart" classname="testcases.IphoneBuyTest" time="2.269"/>
+  <testcase name="cart" classname="testcases.IphoneBuyTest" time="2.249"/>
+  <testcase name="buyProduct" classname="testcases.IphoneBuyTest" time="3.05"/>
 </testsuite>
